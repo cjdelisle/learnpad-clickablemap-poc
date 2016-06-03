@@ -1,0 +1,77 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<MAP MODELID="30048" MODELNAME="01 - Titolo Unico " MODELTYPE="Business process diagram (BPMN 2.0)">
+  <AREA ID="31405" TYPE="connector" CLASSNAME="Subsequent" SHAPE="rect" COORDS="17,5,17,4" BBX="17" BBY="5" BBW="1" BBH="0" SBBX="17" SBBY="5" SBBW="1" SBBH="0" LAYER="1" INDEX="56" />
+  <AREA ID="31400" TYPE="object" CLASSNAME="Exclusive Gateway" SHAPE="rect" COORDS="18,5,18,5" BBX="18" BBY="5" BBW="1" BBH="1" SBBX="18" SBBY="5" SBBW="1" SBBH="1" LAYER="1" INDEX="55" POSX="18" POSY="5" />
+  <AREA ID="30180" TYPE="connector" CLASSNAME="Data Association" SHAPE="rect" COORDS="16,5,15,5" BBX="16" BBY="5" BBW="0" BBH="1" SBBX="16" SBBY="5" SBBW="0" SBBH="1" LAYER="1" INDEX="53" />
+  <AREA ID="30121" TYPE="attribute" CLASSNAME="Data Object" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="15,7,15,6"  BBX="15" BBY="7" BBW="1" BBH="0"  LAYER="1" INDEX="52" />
+  <AREA ID="30121" TYPE="object" CLASSNAME="Data Object" SHAPE="rect" COORDS="15,6,15,6" BBX="15" BBY="6" BBW="1" BBH="1" SBBX="15" SBBY="6" SBBW="0" SBBH="1" LAYER="1" INDEX="52" POSX="15" POSY="6" />
+  <AREA ID="30193" TYPE="connector" CLASSNAME="Message Flow" SHAPE="rect" COORDS="14,2,13,3" BBX="14" BBY="2" BBW="0" BBH="2" SBBX="14" SBBY="2" SBBW="0" SBBH="2" LAYER="1" INDEX="51" />
+  <AREA ID="30190" TYPE="connector" CLASSNAME="Subsequent" SHAPE="rect" COORDS="14,5,14,4" BBX="14" BBY="5" BBW="1" BBH="0" SBBX="14" SBBY="5" SBBW="1" SBBH="0" LAYER="1" INDEX="50" />
+  <AREA ID="30118" TYPE="attribute" CLASSNAME="Task" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="13,5,13,4"  BBX="13" BBY="5" BBW="1" BBH="0"  LAYER="1" INDEX="49" />
+  <AREA ID="30118" TYPE="object" CLASSNAME="Task" SHAPE="rect" COORDS="13,5,13,5" BBX="13" BBY="5" BBW="1" BBH="1" SBBX="13" SBBY="5" SBBW="1" SBBH="1" LAYER="1" INDEX="49" POSX="14" POSY="5" />
+  <AREA ID="30165" TYPE="connector" CLASSNAME="Message Flow" SHAPE="rect" COORDS="16,2,15,3" BBX="16" BBY="2" BBW="0" BBH="2" SBBX="16" SBBY="2" SBBW="0" SBBH="2" LAYER="1" INDEX="48" />
+  <AREA ID="30188" TYPE="connector" CLASSNAME="Data Association" SHAPE="rect" COORDS="4,5,3,4" BBX="4" BBY="5" BBW="0" BBH="0" SBBX="4" SBBY="5" SBBW="0" SBBH="0" LAYER="1" INDEX="47" />
+  <AREA ID="30115" TYPE="attribute" CLASSNAME="Data Object" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="4,6,3,5"  BBX="4" BBY="6" BBW="0" BBH="0"  LAYER="1" INDEX="46" />
+  <AREA ID="30115" TYPE="object" CLASSNAME="Data Object" SHAPE="rect" COORDS="4,6,3,6" BBX="4" BBY="6" BBW="0" BBH="1" SBBX="4" SBBY="6" SBBW="0" SBBH="1" LAYER="1" INDEX="46" POSX="4" POSY="6" />
+  <AREA ID="30112" TYPE="object" CLASSNAME="Intermediate Event (boundary)" SHAPE="rect" COORDS="17,5,17,5" BBX="17" BBY="5" BBW="1" BBH="1" SBBX="17" SBBY="5" SBBW="1" SBBH="1" LAYER="1" INDEX="45" POSX="17" POSY="5" />
+  <AREA ID="30109" TYPE="attribute" CLASSNAME="Task" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="21,7,21,6"  BBX="21" BBY="7" BBW="1" BBH="0"  LAYER="1" INDEX="44" />
+  <AREA ID="30109" TYPE="object" CLASSNAME="Task" SHAPE="rect" COORDS="21,7,21,7" BBX="21" BBY="7" BBW="1" BBH="1" SBBX="21" SBBY="7" SBBW="1" SBBH="1" LAYER="1" INDEX="44" POSX="21" POSY="7" />
+  <AREA ID="30106" TYPE="attribute" CLASSNAME="Task" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="16,5,16,4"  BBX="16" BBY="5" BBW="1" BBH="0"  LAYER="1" INDEX="43" />
+  <AREA ID="30106" TYPE="object" CLASSNAME="Task" SHAPE="rect" COORDS="16,5,16,5" BBX="16" BBY="5" BBW="1" BBH="1" SBBX="16" SBBY="5" SBBW="1" SBBH="1" LAYER="1" INDEX="43" POSX="16" POSY="5" />
+  <AREA ID="30103" TYPE="attribute" CLASSNAME="Task" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="4,5,4,4"  BBX="4" BBY="5" BBW="1" BBH="0"  LAYER="1" INDEX="42" />
+  <AREA ID="30103" TYPE="object" CLASSNAME="Task" SHAPE="rect" COORDS="4,5,4,5" BBX="4" BBY="5" BBW="1" BBH="1" SBBX="4" SBBY="5" SBBW="1" SBBH="1" LAYER="1" INDEX="42" POSX="4" POSY="5" />
+  <AREA ID="30172" TYPE="connector" CLASSNAME="Subsequent" SHAPE="rect" COORDS="23,5,22,4" BBX="23" BBY="5" BBW="0" BBH="0" SBBX="23" SBBY="5" SBBW="0" SBBH="0" LAYER="1" INDEX="41" />
+  <AREA ID="30100" TYPE="object" CLASSNAME="Exclusive Gateway" SHAPE="rect" COORDS="23,5,23,5" BBX="23" BBY="5" BBW="1" BBH="1" SBBX="23" SBBY="5" SBBW="1" SBBH="1" LAYER="1" INDEX="40" POSX="23" POSY="5" />
+  <AREA ID="30169" TYPE="connector" CLASSNAME="Subsequent" SHAPE="rect" COORDS="11,5,11,4" BBX="11" BBY="5" BBW="1" BBH="0" SBBX="11" SBBY="5" SBBW="1" SBBH="0" LAYER="1" INDEX="39" />
+  <AREA ID="30097" TYPE="object" CLASSNAME="Exclusive Gateway" SHAPE="rect" COORDS="10,5,10,5" BBX="10" BBY="5" BBW="1" BBH="1" SBBX="10" SBBY="5" SBBW="1" SBBH="1" LAYER="1" INDEX="38" POSX="10" POSY="5" />
+  <AREA ID="30166" TYPE="connector" CLASSNAME="Subsequent" SHAPE="rect" COORDS="18,5,18,4" BBX="18" BBY="5" BBW="1" BBH="0" SBBX="18" SBBY="5" SBBW="1" SBBH="0" LAYER="1" INDEX="37" />
+  <AREA ID="30138" TYPE="connector" CLASSNAME="Data Association" SHAPE="rect" COORDS="21,5,20,4" BBX="21" BBY="5" BBW="0" BBH="0" SBBX="21" SBBY="5" SBBW="0" SBBH="0" LAYER="1" INDEX="36" />
+  <AREA ID="30163" TYPE="connector" CLASSNAME="Subsequent" SHAPE="rect" COORDS="9,4,22,4" BBX="9" BBY="4" BBW="14" BBH="1" SBBX="9" SBBY="4" SBBW="14" SBBH="1" LAYER="1" INDEX="34" />
+  <AREA ID="30162" TYPE="connector" CLASSNAME="Message Flow" SHAPE="rect" COORDS="8,2,7,2" BBX="8" BBY="2" BBW="0" BBH="1" SBBX="8" SBBY="2" SBBW="0" SBBH="1" LAYER="1" INDEX="33" />
+  <AREA ID="30088" TYPE="attribute" CLASSNAME="Task" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="7,4,7,3"  BBX="7" BBY="4" BBW="1" BBH="0"  LAYER="1" INDEX="32" />
+  <AREA ID="30088" TYPE="object" CLASSNAME="Task" SHAPE="rect" COORDS="7,4,8,4" BBX="7" BBY="4" BBW="2" BBH="1" SBBX="7" SBBY="4" SBBW="2" SBBH="1" LAYER="1" INDEX="32" POSX="8" POSY="4" />
+  <AREA ID="30137" TYPE="connector" CLASSNAME="Subsequent" SHAPE="rect" COORDS="22,5,22,4" BBX="22" BBY="5" BBW="1" BBH="0" SBBX="22" SBBY="5" SBBW="1" SBBH="0" LAYER="1" INDEX="31" />
+  <AREA ID="30085" TYPE="attribute" CLASSNAME="Data Object" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="21,6,21,5"  BBX="21" BBY="6" BBW="1" BBH="0"  LAYER="1" INDEX="30" />
+  <AREA ID="30085" TYPE="object" CLASSNAME="Data Object" SHAPE="rect" COORDS="21,6,21,6" BBX="21" BBY="6" BBW="1" BBH="1" SBBX="21" SBBY="6" SBBW="0" SBBH="1" LAYER="1" INDEX="30" POSX="21" POSY="6" />
+  <AREA ID="30136" TYPE="connector" CLASSNAME="Message Flow" SHAPE="rect" COORDS="21,2,20,3" BBX="21" BBY="2" BBW="0" BBH="2" SBBX="21" SBBY="2" SBBW="0" SBBH="2" LAYER="1" INDEX="29" />
+  <AREA ID="30164" TYPE="connector" CLASSNAME="Message Flow" SHAPE="rect" COORDS="3,2,2,3" BBX="3" BBY="2" BBW="0" BBH="2" SBBX="3" SBBY="2" SBBW="0" SBBH="2" LAYER="1" INDEX="28" />
+  <AREA ID="30149" TYPE="connector" CLASSNAME="Subsequent" SHAPE="rect" COORDS="12,4,17,3" BBX="12" BBY="4" BBW="6" BBH="0" SBBX="12" SBBY="4" SBBW="6" SBBH="0" LAYER="1" INDEX="27" />
+  <AREA ID="30181" TYPE="connector" CLASSNAME="Subsequent" SHAPE="rect" COORDS="22,5,22,6" BBX="22" BBY="5" BBW="1" BBH="2" SBBX="22" SBBY="5" SBBW="1" SBBH="2" LAYER="1" INDEX="26" />
+  <AREA ID="30157" TYPE="connector" CLASSNAME="Subsequent" SHAPE="rect" COORDS="19,6,19,7" BBX="19" BBY="6" BBW="1" BBH="2" SBBX="19" SBBY="6" SBBW="1" SBBH="2" LAYER="1" INDEX="25" />
+  <AREA ID="30156" TYPE="connector" CLASSNAME="Subsequent" SHAPE="rect" COORDS="20,5,20,4" BBX="20" BBY="5" BBW="1" BBH="0" SBBX="20" SBBY="5" SBBW="1" SBBH="0" LAYER="1" INDEX="24" />
+  <AREA ID="30082" TYPE="attribute" CLASSNAME="Exclusive Gateway" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="19,5,19,4"  BBX="19" BBY="5" BBW="1" BBH="0"  LAYER="1" INDEX="22" />
+  <AREA ID="30082" TYPE="object" CLASSNAME="Exclusive Gateway" SHAPE="rect" COORDS="19,5,19,5" BBX="19" BBY="5" BBW="1" BBH="1" SBBX="19" SBBY="5" SBBW="1" SBBH="1" LAYER="1" INDEX="22" POSX="19" POSY="5" />
+  <AREA ID="30148" TYPE="connector" CLASSNAME="Subsequent" SHAPE="rect" COORDS="12,5,12,4" BBX="12" BBY="5" BBW="1" BBH="0" SBBX="12" SBBY="5" SBBW="1" SBBH="0" LAYER="1" INDEX="21" />
+  <AREA ID="30184" TYPE="connector" CLASSNAME="Subsequent" SHAPE="rect" COORDS="9,6,16,7" BBX="9" BBY="6" BBW="8" BBH="2" SBBX="9" SBBY="6" SBBW="8" SBBH="2" LAYER="1" INDEX="20" />
+  <AREA ID="30130" TYPE="connector" CLASSNAME="Subsequent" SHAPE="rect" COORDS="9,5,9,4" BBX="9" BBY="5" BBW="1" BBH="0" SBBX="9" SBBY="5" SBBW="1" SBBH="0" LAYER="1" INDEX="19" />
+  <AREA ID="30133" TYPE="connector" CLASSNAME="Subsequent" SHAPE="rect" COORDS="10,5,9,5" BBX="10" BBY="5" BBW="0" BBH="1" SBBX="10" SBBY="5" SBBW="0" SBBH="1" LAYER="1" INDEX="18" />
+  <AREA ID="30153" TYPE="connector" CLASSNAME="Subsequent" SHAPE="rect" COORDS="9,7,9,6" BBX="9" BBY="7" BBW="1" BBH="0" SBBX="9" SBBY="7" SBBW="1" SBBH="0" LAYER="1" INDEX="17" />
+  <AREA ID="30145" TYPE="connector" CLASSNAME="Subsequent" SHAPE="rect" COORDS="9,6,8,6" BBX="9" BBY="6" BBW="0" BBH="1" SBBX="9" SBBY="6" SBBW="0" SBBH="1" LAYER="1" INDEX="16" />
+  <AREA ID="30079" TYPE="object" CLASSNAME="Exclusive Gateway" SHAPE="rect" COORDS="8,6,8,6" BBX="8" BBY="6" BBW="1" BBH="1" SBBX="8" SBBY="6" SBBW="1" SBBH="1" LAYER="1" INDEX="15" POSX="9" POSY="7" />
+  <AREA ID="30141" TYPE="connector" CLASSNAME="Subsequent" SHAPE="rect" COORDS="6,5,6,4" BBX="6" BBY="5" BBW="1" BBH="0" SBBX="6" SBBY="5" SBBW="1" SBBH="0" LAYER="1" INDEX="14" />
+  <AREA ID="30140" TYPE="connector" CLASSNAME="Subsequent" SHAPE="rect" COORDS="6,4,6,4" BBX="6" BBY="4" BBW="1" BBH="1" SBBX="6" SBBY="4" SBBW="1" SBBH="1" LAYER="1" INDEX="13" />
+  <AREA ID="30076" TYPE="attribute" CLASSNAME="End Event" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="24,5,24,4"  BBX="24" BBY="5" BBW="1" BBH="0"  LAYER="1" INDEX="12" />
+  <AREA ID="30076" TYPE="object" CLASSNAME="End Event" SHAPE="rect" COORDS="24,5,24,5" BBX="24" BBY="5" BBW="1" BBH="1" SBBX="24" SBBY="5" SBBW="1" SBBH="1" LAYER="1" INDEX="12" POSX="24" POSY="5" />
+  <AREA ID="30073" TYPE="attribute" CLASSNAME="Exclusive Gateway" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="11,5,11,4"  BBX="11" BBY="5" BBW="1" BBH="0"  LAYER="1" INDEX="11" />
+  <AREA ID="30073" TYPE="object" CLASSNAME="Exclusive Gateway" SHAPE="rect" COORDS="11,5,11,5" BBX="11" BBY="5" BBW="1" BBH="1" SBBX="11" SBBY="5" SBBW="1" SBBH="1" LAYER="1" INDEX="11" POSX="12" POSY="5" />
+  <AREA ID="30070" TYPE="object" CLASSNAME="Intermediate Event (boundary)" SHAPE="rect" COORDS="8,5,8,5" BBX="8" BBY="5" BBW="1" BBH="1" SBBX="8" SBBY="5" SBBW="1" SBBH="1" LAYER="1" INDEX="10" POSX="9" POSY="5" />
+  <AREA ID="30174" TYPE="connector" CLASSNAME="Subsequent" SHAPE="rect" COORDS="5,5,5,4" BBX="5" BBY="5" BBW="1" BBH="0" SBBX="5" SBBY="5" SBBW="1" SBBH="0" LAYER="1" INDEX="9" />
+  <AREA ID="30126" TYPE="connector" CLASSNAME="Subsequent" SHAPE="rect" COORDS="3,5,3,4" BBX="3" BBY="5" BBW="1" BBH="0" SBBX="3" SBBY="5" SBBW="1" SBBH="0" LAYER="1" INDEX="8" />
+  <AREA ID="30067" TYPE="attribute" CLASSNAME="Exclusive Gateway" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="5,5,5,4"  BBX="5" BBY="5" BBW="1" BBH="0"  LAYER="1" INDEX="7" />
+  <AREA ID="30067" TYPE="object" CLASSNAME="Exclusive Gateway" SHAPE="rect" COORDS="5,5,5,5" BBX="5" BBY="5" BBW="1" BBH="1" SBBX="6" SBBY="5" SBBW="1" SBBH="1" LAYER="1" INDEX="7" POSX="6" POSY="5" />
+  <AREA ID="30064" TYPE="attribute" CLASSNAME="Task" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="21,5,21,4"  BBX="21" BBY="5" BBW="1" BBH="0"  LAYER="1" INDEX="6" />
+  <AREA ID="30064" TYPE="object" CLASSNAME="Task" SHAPE="rect" COORDS="20,5,20,5" BBX="20" BBY="5" BBW="1" BBH="1" SBBX="20" SBBY="5" SBBW="1" SBBH="1" LAYER="1" INDEX="6" POSX="21" POSY="5" />
+  <AREA ID="30061" TYPE="attribute" CLASSNAME="Sub-Process" ATTRID="10034" ATTRNAME="Referenced subprocess" SHAPE="rect" COORDS="10,6,10,5"  BBX="10" BBY="6" BBW="1" BBH="0"  LAYER="1" INDEX="5" />
+  <AREA ID="30061" TYPE="attribute" CLASSNAME="Sub-Process" ATTRID="10034" ATTRNAME="Referenced subprocess" SHAPE="rect" COORDS="10,7,9,6"  BBX="10" BBY="7" BBW="0" BBH="0"  LAYER="1" INDEX="5" HOTSPOT="yes" />
+  <AREA ID="30061" TYPE="object" CLASSNAME="Sub-Process" SHAPE="rect" COORDS="10,6,10,6" BBX="10" BBY="6" BBW="1" BBH="1" SBBX="10" SBBY="6" SBBW="1" SBBH="1" LAYER="1" INDEX="5" POSX="10" POSY="7" />
+  <AREA ID="30058" TYPE="attribute" CLASSNAME="Sub-Process" ATTRID="10034" ATTRNAME="Referenced subprocess" SHAPE="rect" COORDS="8,5,8,4"  BBX="8" BBY="5" BBW="1" BBH="0"  LAYER="1" INDEX="4" />
+  <AREA ID="30058" TYPE="attribute" CLASSNAME="Sub-Process" ATTRID="10034" ATTRNAME="Referenced subprocess" SHAPE="rect" COORDS="8,5,7,4"  BBX="8" BBY="5" BBW="0" BBH="0"  LAYER="1" INDEX="4" HOTSPOT="yes" />
+  <AREA ID="30058" TYPE="object" CLASSNAME="Sub-Process" SHAPE="rect" COORDS="7,5,7,5" BBX="7" BBY="5" BBW="1" BBH="1" SBBX="7" SBBY="5" SBBW="1" SBBH="1" LAYER="1" INDEX="4" POSX="8" POSY="5" />
+  <AREA ID="30055" TYPE="object" CLASSNAME="Start Event" SHAPE="rect" COORDS="2,5,2,5" BBX="2" BBY="5" BBW="1" BBH="1" SBBX="2" SBBY="5" SBBW="1" SBBH="1" LAYER="1" INDEX="3" POSX="3" POSY="5" />
+  <AREA ID="30052" TYPE="attribute" CLASSNAME="Lane" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="1,6,1,5"  BBX="1" BBY="6" BBW="1" BBH="0"  LAYER="-1" INDEX="2" />
+  <AREA ID="30052" TYPE="object" CLASSNAME="Lane" SHAPE="rect" COORDS="1,3,24,7" BBX="1" BBY="3" BBW="24" BBH="5" SBBX="1" SBBY="3" SBBW="24" SBBH="5" LAYER="-1" INDEX="2" POSX="1" POSY="3" />
+  <AREA ID="30091" TYPE="attribute" CLASSNAME="Pool" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="0,1,0,0"  BBX="0" BBY="1" BBW="1" BBH="0"  LAYER="-2" INDEX="35" />
+  <AREA ID="30091" TYPE="object" CLASSNAME="Pool" SHAPE="rect" COORDS="0,1,24,2" BBX="0" BBY="1" BBW="25" BBH="2" SBBX="0" SBBY="1" SBBW="25" SBBH="2" LAYER="-2" INDEX="35" POSX="0" POSY="1" />
+  <AREA ID="30049" TYPE="attribute" CLASSNAME="Pool" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="0,5,0,5"  BBX="0" BBY="5" BBW="1" BBH="1"  LAYER="-2" INDEX="1" />
+  <AREA ID="30049" TYPE="object" CLASSNAME="Pool" SHAPE="rect" COORDS="0,3,21,7" BBX="0" BBY="3" BBW="22" BBH="5" SBBX="0" SBBY="3" SBBW="22" SBBH="5" LAYER="-2" INDEX="1" POSX="0" POSY="3" />
+</MAP>

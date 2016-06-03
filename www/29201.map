@@ -1,0 +1,4 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<MAP MODELID="29201" MODELNAME="Model Set Overview - SUAP - Titolo Unico" MODELTYPE="Model Set Overview">
+  <AREA ID="29202" TYPE="object" CLASSNAME="ModelSet" SHAPE="rect" COORDS="1,0,3,0" BBX="1" BBY="0" BBW="3" BBH="1" SBBX="1" SBBY="0" SBBW="3" SBBH="1" LAYER="1" INDEX="1" POSX="2" POSY="1" />
+</MAP>

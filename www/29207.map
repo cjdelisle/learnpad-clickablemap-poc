@@ -1,0 +1,31 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<MAP MODELID="29207" MODELNAME="04 - Competency model Titolo Unico" MODELTYPE="Competency model">
+  <AREA ID="29247" TYPE="attribute" CLASSNAME="Competency" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="4,10,5,9"  BBX="4" BBY="10" BBW="2" BBH="0"  LAYER="1" INDEX="14" />
+  <AREA ID="29247" TYPE="object" CLASSNAME="Competency" SHAPE="rect" COORDS="4,10,5,10" BBX="4" BBY="10" BBW="2" BBH="1" SBBX="4" SBBY="10" SBBW="1" SBBH="1" LAYER="1" INDEX="14" POSX="5" POSY="10" />
+  <AREA ID="29244" TYPE="attribute" CLASSNAME="Competency" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="3,9,5,8"  BBX="3" BBY="9" BBW="3" BBH="0"  LAYER="1" INDEX="13" />
+  <AREA ID="29244" TYPE="object" CLASSNAME="Competency" SHAPE="rect" COORDS="3,8,5,8" BBX="3" BBY="8" BBW="3" BBH="1" SBBX="4" SBBY="8" SBBW="1" SBBH="1" LAYER="1" INDEX="13" POSX="5" POSY="9" />
+  <AREA ID="29241" TYPE="attribute" CLASSNAME="Competency" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="0,9,2,8"  BBX="0" BBY="9" BBW="3" BBH="0"  LAYER="1" INDEX="12" />
+  <AREA ID="29241" TYPE="object" CLASSNAME="Competency" SHAPE="rect" COORDS="0,9,2,9" BBX="0" BBY="9" BBW="3" BBH="1" SBBX="1" SBBY="9" SBBW="1" SBBH="1" LAYER="1" INDEX="12" POSX="2" POSY="9" />
+  <AREA ID="29238" TYPE="attribute" CLASSNAME="Competency" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="3,7,5,6"  BBX="3" BBY="7" BBW="3" BBH="0"  LAYER="1" INDEX="11" />
+  <AREA ID="29238" TYPE="object" CLASSNAME="Competency" SHAPE="rect" COORDS="3,7,5,7" BBX="3" BBY="7" BBW="3" BBH="1" SBBX="4" SBBY="7" SBBW="1" SBBH="1" LAYER="1" INDEX="11" POSX="5" POSY="7" />
+  <AREA ID="29235" TYPE="attribute" CLASSNAME="Competency" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="0,8,2,7"  BBX="0" BBY="8" BBW="3" BBH="0"  LAYER="1" INDEX="10" />
+  <AREA ID="29235" TYPE="object" CLASSNAME="Competency" SHAPE="rect" COORDS="0,7,2,7" BBX="0" BBY="7" BBW="3" BBH="1" SBBX="1" SBBY="7" SBBW="1" SBBH="1" LAYER="1" INDEX="10" POSX="2" POSY="8" />
+  <AREA ID="29232" TYPE="attribute" CLASSNAME="Competency" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="3,6,5,5"  BBX="3" BBY="6" BBW="3" BBH="0"  LAYER="1" INDEX="9" />
+  <AREA ID="29232" TYPE="object" CLASSNAME="Competency" SHAPE="rect" COORDS="3,5,5,5" BBX="3" BBY="5" BBW="3" BBH="1" SBBX="4" SBBY="5" SBBW="1" SBBH="1" LAYER="1" INDEX="9" POSX="5" POSY="6" />
+  <AREA ID="29229" TYPE="attribute" CLASSNAME="Competency" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="0,7,2,6"  BBX="0" BBY="7" BBW="3" BBH="0"  LAYER="1" INDEX="8" />
+  <AREA ID="29229" TYPE="object" CLASSNAME="Competency" SHAPE="rect" COORDS="0,6,2,6" BBX="0" BBY="6" BBW="3" BBH="1" SBBX="2" SBBY="6" SBBW="1" SBBH="1" LAYER="1" INDEX="8" POSX="2" POSY="6" />
+  <AREA ID="29220" TYPE="attribute" CLASSNAME="Competency" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="4,3,5,2"  BBX="4" BBY="3" BBW="2" BBH="0"  LAYER="1" INDEX="5" />
+  <AREA ID="29220" TYPE="object" CLASSNAME="Competency" SHAPE="rect" COORDS="4,2,5,2" BBX="4" BBY="2" BBW="2" BBH="1" SBBX="4" SBBY="2" SBBW="1" SBBH="1" LAYER="1" INDEX="5" POSX="5" POSY="3" />
+  <AREA ID="29217" TYPE="attribute" CLASSNAME="Competency" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="0,3,2,2"  BBX="0" BBY="3" BBW="3" BBH="0"  LAYER="1" INDEX="4" />
+  <AREA ID="29217" TYPE="object" CLASSNAME="Competency" SHAPE="rect" COORDS="0,2,2,2" BBX="0" BBY="2" BBW="3" BBH="1" SBBX="1" SBBY="2" SBBW="1" SBBH="1" LAYER="1" INDEX="4" POSX="2" POSY="3" />
+  <AREA ID="29214" TYPE="attribute" CLASSNAME="Competency" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="1,4,2,3"  BBX="1" BBY="4" BBW="2" BBH="0"  LAYER="1" INDEX="3" />
+  <AREA ID="29214" TYPE="object" CLASSNAME="Competency" SHAPE="rect" COORDS="1,3,2,3" BBX="1" BBY="3" BBW="2" BBH="1" SBBX="1" SBBY="3" SBBW="1" SBBH="1" LAYER="1" INDEX="3" POSX="2" POSY="4" />
+  <AREA ID="29211" TYPE="attribute" CLASSNAME="Competency" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="3,2,5,1"  BBX="3" BBY="2" BBW="3" BBH="0"  LAYER="1" INDEX="2" />
+  <AREA ID="29211" TYPE="object" CLASSNAME="Competency" SHAPE="rect" COORDS="3,1,5,1" BBX="3" BBY="1" BBW="3" BBH="1" SBBX="4" SBBY="1" SBBW="1" SBBH="1" LAYER="1" INDEX="2" POSX="5" POSY="1" />
+  <AREA ID="29208" TYPE="attribute" CLASSNAME="Competency" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="1,2,2,1"  BBX="1" BBY="2" BBW="2" BBH="0"  LAYER="1" INDEX="1" />
+  <AREA ID="29208" TYPE="object" CLASSNAME="Competency" SHAPE="rect" COORDS="1,1,2,1" BBX="1" BBY="1" BBW="2" BBH="1" SBBX="1" SBBY="1" SBBW="1" SBBH="1" LAYER="1" INDEX="1" POSX="2" POSY="1" />
+  <AREA ID="29226" TYPE="attribute" CLASSNAME="Group" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="3,5,3,4"  BBX="3" BBY="5" BBW="1" BBH="0"  LAYER="-5" INDEX="7" />
+  <AREA ID="29226" TYPE="object" CLASSNAME="Group" SHAPE="rect" COORDS="0,5,5,10" BBX="0" BBY="5" BBW="6" BBH="6" SBBX="0" SBBY="5" SBBW="6" SBBH="6" LAYER="-5" INDEX="7" POSX="0" POSY="5" />
+  <AREA ID="29223" TYPE="attribute" CLASSNAME="Group" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="3,0,3,-1"  BBX="3" BBY="0" BBW="1" BBH="0"  LAYER="-5" INDEX="6" />
+  <AREA ID="29223" TYPE="object" CLASSNAME="Group" SHAPE="rect" COORDS="0,0,5,3" BBX="0" BBY="0" BBW="6" BBH="4" SBBX="0" SBBY="1" SBBW="6" SBBH="4" LAYER="-5" INDEX="6" POSX="0" POSY="1" />
+</MAP>

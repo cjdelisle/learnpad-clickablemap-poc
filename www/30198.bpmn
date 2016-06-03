@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL"
+             xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI"
+             xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC"
+             xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI"
+             xmlns:signavio="http://www.signavio.com"
+             xmlns:inspire="http://bpminspire.com/bpmn2/extension/inspire"
+             xmlns:activiti="http://activiti.org/bpmn"
+             xmlns:adonis="http://www.boc-group.com"
+             xmlns:semantic="http://www.omg.org/spec/BPMN/20100524/MODEL"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             exporter="ADOxx"
+             exporterVersion="6.1.4.1"
+             expressionLanguage="http://www.w3.org/1999/XPath"
+             targetNamespace="http://www.omg.org/bpmn20"
+             id="def_30198"
+             typeLanguage="http://www.w3.org/2001/XMLSchema"
+             xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL http://www.omg.org/spec/BPMN/2.0/20100501/BPMN20.xsd">
+   <message id="message_con.30247"/>
+   <message id="message_con.30264"/>
+   <collaboration id="Collaboration_30198" name="011 - Check Application">
+      <extensionElements>
+         <adonis:modelattributes>
+            <adonis:attribute name="Name" type="STRING">011 - Check Application</adonis:attribute>
+            <adonis:attribute name="Creation date" type="STRING">11.08.2015, 15:15</adonis:attribute>
+            <adonis:attribute name="Date last changed" type="STRING">31.03.2016, 01:19:01</adonis:attribute>
+            <adonis:attribute name="Last user" type="STRING">Admin</adonis:attribute>
+            <adonis:attribute name="Model type" type="ENUMERATION">Current model</adonis:attribute>
+            <adonis:attribute name="State" type="ENUMERATION">In process</adonis:attribute>
+            <adonis:attribute name="Description" type="STRING">Several third party administrations are involved in the Titolo Unico business process. They are external Public Administration delegated to do some checks. This subprocess refers to the activities related to their partecipation. In this activity the SUAP office checks the documents and certificates in order to verify that there are no restrictions. At the same time, it asks the third party administration to do the same.</adonis:attribute>
+            <adonis:attribute name="Number of objects and relations" type="INTEGER">49</adonis:attribute>
+            <adonis:attribute name="World area" type="STRING">w:41cm h:28.79cm minw:5cm minh:5cm</adonis:attribute>
+            <adonis:attribute name="Zoom" type="INTEGER">78</adonis:attribute>
+            <adonis:attribute name="Viewable area" type="STRING">VIEW representation:graphic
+GRAPHIC x:-16 y:-16 w:1194 h:670 scale:0.78
+TABLE
+</adonis:attribute>
+            <adonis:attribute name="Current mode" type="STRING">All modelling objects</adonis:attribute>
+            <adonis:attribute name="Base name" type="STRING">011 - Check Application</adonis:attribute>
+            <adonis:attribute name="Access state" type="ENUMERATION">write</adonis:attribute>
+            <adonis:attribute name="Type" type="STRING">Business process diagram (BPMN 2.0)</adonis:attribute>
+            <adonis:attribute name="Change counter" type="INTEGER">13229</adonis:attribute>
+            <adonis:attribute name="Font size" type="INTEGER">0</adonis:attribute>
+            <adonis:attribute name="Auditing" type="ENUMERATION">No</adonis:attribute>
+            <adonis:attribute name="Monitoring" type="ENUMERATION">No</adonis:attribute>
+            <adonis:attribute name="Process type" type="ENUMERATION">None</adonis:attribute>
+            <adonis:attribute name="Executable" type="ENUMERATION">No</adonis:attribute>
+            <adonis:attribute name="Closed" type="ENUMERATION">No</adonis:attribute>
+            <adonis:record name="Change history"/>
+         </adonis:modelattributes>
+      </extensionElements>
+      <participant processRef="process_obj.30199"
+                   name="Sportello Comprensoriale or Sportello Municipale"
+                   id="obj.30199"/>
+      <participant processRef="process_obj.30226" name="Third Party PA" id="obj.30226"/>
+      <messageFlow messageRef="message_con.30247"
+                   id="con.30247"
+                   name=""
+                   sourceRef="obj.30208"
+                   targetRef="obj.30226">
+         <extensionElements>
+            <adonis:connector>
+               <adonis:attribute name="Number" type="INTEGER">0</adonis:attribute>
+               <adonis:attribute name="Representation" type="ENUMERATION">above/below</adonis:attribute>
+               <adonis:attribute name="Rotate the visualised values by 90 degrees" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Show name" type="ENUMERATION">No</adonis:attribute>
+            </adonis:connector>
+         </extensionElements>
+      </messageFlow>
+      <messageFlow messageRef="message_con.30264"
+                   id="con.30264"
+                   name=""
+                   sourceRef="obj.30226"
+                   targetRef="obj.30211">
+         <extensionElements>
+            <adonis:connector>
+               <adonis:attribute name="Number" type="INTEGER">0</adonis:attribute>
+               <adonis:attribute name="Representation" type="ENUMERATION">above/below</adonis:attribute>
+               <adonis:attribute name="Rotate the visualised values by 90 degrees" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Show name" type="ENUMERATION">No</adonis:attribute>
+            </adonis:connector>
+         </extensionElements>
+      </messageFlow>
+   </collaboration>
+   <process name="Sportello Comprensoriale or Sportello Municipale"
+            id="process_obj.30199"
+            isExecutable="false">
+      <extensionElements>
+         <adonis:instance>
+            <adonis:attribute name="Rotate the visualised values by 90 degrees" type="ENUMERATION">No</adonis:attribute>
+            <adonis:attribute name="Description" type="STRING">This pool generalize the organization where the SUAP office can be find. It can be part of the municipality, in this case is called sportello municipale, or be part of the organization that provides the aggregated SUAP, in this case is called sportello comprensoriale. </adonis:attribute>
+            <adonis:attribute name="Color" type="STRING">white</adonis:attribute>
+            <adonis:attribute name="Orientation" type="ENUMERATION">horizontal</adonis:attribute>
+            <adonis:attribute name="Auditing" type="ENUMERATION">No</adonis:attribute>
+            <adonis:attribute name="Monitoring" type="ENUMERATION">No</adonis:attribute>
+            <adonis:attribute name="Process type" type="ENUMERATION">None</adonis:attribute>
+            <adonis:attribute name="Closed" type="ENUMERATION">No</adonis:attribute>
+         </adonis:instance>
+         <adonis:modelattributes>
+            <adonis:attribute name="Name" type="STRING">011 - Check Application</adonis:attribute>
+            <adonis:attribute name="Creation date" type="STRING">11.08.2015, 15:15</adonis:attribute>
+            <adonis:attribute name="Date last changed" type="STRING">31.03.2016, 01:19:01</adonis:attribute>
+            <adonis:attribute name="Last user" type="STRING">Admin</adonis:attribute>
+            <adonis:attribute name="Model type" type="ENUMERATION">Current model</adonis:attribute>
+            <adonis:attribute name="State" type="ENUMERATION">In process</adonis:attribute>
+            <adonis:attribute name="Description" type="STRING">Several third party administrations are involved in the Titolo Unico business process. They are external Public Administration delegated to do some checks. This subprocess refers to the activities related to their partecipation. In this activity the SUAP office checks the documents and certificates in order to verify that there are no restrictions. At the same time, it asks the third party administration to do the same.</adonis:attribute>
+            <adonis:attribute name="Number of objects and relations" type="INTEGER">49</adonis:attribute>
+            <adonis:attribute name="World area" type="STRING">w:41cm h:28.79cm minw:5cm minh:5cm</adonis:attribute>
+            <adonis:attribute name="Zoom" type="INTEGER">78</adonis:attribute>
+            <adonis:attribute name="Viewable area" type="STRING">VIEW representation:graphic
+GRAPHIC x:-16 y:-16 w:1194 h:670 scale:0.78
+TABLE
+</adonis:attribute>
+            <adonis:attribute name="Current mode" type="STRING">All modelling objects</adonis:attribute>
+            <adonis:attribute name="Base name" type="STRING">011 - Check Application</adonis:attribute>
+            <adonis:attribute name="Access state" type="ENUMERATION">write</adonis:attribute>
+            <adonis:attribute name="Type" type="STRING">Business process diagram (BPMN 2.0)</adonis:attribute>
+            <adonis:attribute name="Change counter" type="INTEGER">13229</adonis:attribute>
+            <adonis:attribute name="Font size" type="INTEGER">0</adonis:attribute>
+            <adonis:attribute name="Auditing" type="ENUMERATION">No</adonis:attribute>
+            <adonis:attribute name="Monitoring" type="ENUMERATION">No</adonis:attribute>
+            <adonis:attribute name="Process type" type="ENUMERATION">None</adonis:attribute>
+            <adonis:attribute name="Executable" type="ENUMERATION">No</adonis:attribute>
+            <adonis:attribute name="Closed" type="ENUMERATION">No</adonis:attribute>
+            <adonis:record name="Change history"/>
+         </adonis:modelattributes>
+      </extensionElements>
+      <laneSet id="laneSet_obj.30199">
+         <lane name="SUAP Office" id="obj.30202">
+            <extensionElements>
+               <adonis:instance>
+                  <adonis:attribute name="Description" type="STRING">SUAP office can be considered as a mediator among entrepreneurs and PAs. It means, that in case an entrepreneur wants to start a manufacturing activity, he/she needs to contact just the SUAP office that is in charge to forward the request to all the other involved administrations. SUAP office can be organized as an office of the municipality or it  is possible that small municipalities decide to delegate such responsibility to a consortium that provide the SUAP office for more than one municipality.</adonis:attribute>
+                  <adonis:attribute name="Color" type="STRING">white</adonis:attribute>
+                  <adonis:attribute name="Orientation" type="ENUMERATION">horizontal</adonis:attribute>
+                  <adonis:attribute name="Line break" type="ENUMERATION">No</adonis:attribute>
+                  <adonis:attribute name="Rotate the visualised values by 90 degrees" type="ENUMERATION">No</adonis:attribute>
+               </adonis:instance>
+            </extensionElements>
+            <flowNodeRef>obj.30205</flowNodeRef>
+            <flowNodeRef>obj.30208</flowNodeRef>
+            <flowNodeRef>obj.30211</flowNodeRef>
+            <flowNodeRef>obj.30217</flowNodeRef>
+            <flowNodeRef>obj.30223</flowNodeRef>
+            <flowNodeRef>obj.30229</flowNodeRef>
+            <flowNodeRef>obj.30232</flowNodeRef>
+            <flowNodeRef>obj.30235</flowNodeRef>
+            <flowNodeRef>obj.30238</flowNodeRef>
+         </lane>
+      </laneSet>
+      <dataObject name="Instance" id="dataObject_obj.30214"/>
+      <dataObject name="Third Party Opinion" id="dataObject_obj.30220"/>
+      <startEvent name="Check Application Activation" id="obj.30205">
+         <extensionElements>
+            <adonis:instance>
+               <adonis:attribute name="Process calendar" type="LONGSTRING">D@Working day@b@32400-43200@U900;1800@45000-59400@U900;1800@Free day@c@@@$cbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbcbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbcbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbcccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbbbbbccbccbbccb</adonis:attribute>
+               <adonis:attribute name="Quantity" type="EXPRESSION">EXPR expr:(0) val:0</adonis:attribute>
+               <adonis:attribute name="Abandon after tolerance waiting time" type="ENUMERATION">no</adonis:attribute>
+               <adonis:attribute name="Order" type="INTEGER">0</adonis:attribute>
+               <adonis:attribute name="Description" type="STRING">The suprocess is activated as soon as the application need  to be checked by the  SUAP office and by third party administration.</adonis:attribute>
+               <adonis:attribute name="Aggregated execution time" type="TIME">00:000:00:00:00</adonis:attribute>
+               <adonis:attribute name="Aggregated waiting time" type="TIME">00:000:00:00:00</adonis:attribute>
+               <adonis:attribute name="Aggregated resting time" type="TIME">00:000:00:00:00</adonis:attribute>
+               <adonis:attribute name="Aggregated transport time" type="TIME">00:000:00:00:00</adonis:attribute>
+               <adonis:attribute name="Aggregated cycle time" type="TIME">00:000:00:00:00</adonis:attribute>
+               <adonis:attribute name="Aggregated costs" type="DOUBLE">0</adonis:attribute>
+               <adonis:attribute name="Cost driver quantity" type="INTEGER">0</adonis:attribute>
+               <adonis:attribute name="Aggregated personnel costs" type="DOUBLE">0</adonis:attribute>
+               <adonis:attribute name="External documentation" type="PROGRAMCALL">ITEM "" param:""</adonis:attribute>
+               <adonis:attribute name="Show name" type="ENUMERATION">Yes</adonis:attribute>
+               <adonis:attribute name="Auditing" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Monitoring" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Collection" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Object type" type="ENUMERATION">Information</adonis:attribute>
+            </adonis:instance>
+         </extensionElements>
+         <outgoing>con.30244</outgoing>
+      </startEvent>
+      <sendTask name="Send Instance to Third Party"
+                id="obj.30208"
+                isForCompensation="false">
+         <extensionElements>
+            <adonis:instance>
+               <adonis:attribute name="Performer" type="EXPRESSION">EXPR expr:("") val:""</adonis:attribute>
+               <adonis:attribute name="Waiting time" type="TIME">00:000:00:00:00</adonis:attribute>
+               <adonis:attribute name="Resting time" type="TIME">00:000:00:00:00</adonis:attribute>
+               <adonis:attribute name="Transport time" type="TIME">00:000:00:00:00</adonis:attribute>
+               <adonis:attribute name="Priority" type="INTEGER">10</adonis:attribute>
+               <adonis:attribute name="Continuous execution" type="ENUMERATION">no</adonis:attribute>
+               <adonis:attribute name="Cooperative" type="ENUMERATION">no</adonis:attribute>
+               <adonis:attribute name="Cooperation mode" type="ENUMERATION">synchron</adonis:attribute>
+               <adonis:attribute name="Average number of participants" type="INTEGER">1</adonis:attribute>
+               <adonis:attribute name="Min. quota of presence" type="INTEGER">100</adonis:attribute>
+               <adonis:attribute name="Execution interruptable" type="ENUMERATION">yes</adonis:attribute>
+               <adonis:attribute name="Task stack" type="ENUMERATION">personal</adonis:attribute>
+               <adonis:attribute name="Order" type="INTEGER">0</adonis:attribute>
+               <adonis:attribute name="Costs" type="DOUBLE">0</adonis:attribute>
+               <adonis:attribute name="Description" type="STRING">In this activity the SUAP office has to send to PAs the Instance for checking. One representative for each convened administration takes part in the decision, who has the power to make a binding decision for the relevant administration it represents. These convened administration are contacted. </adonis:attribute>
+               <adonis:attribute name="External documentation" type="PROGRAMCALL">ITEM "" param:""</adonis:attribute>
+               <adonis:attribute name="Number" type="DOUBLE">0</adonis:attribute>
+               <adonis:attribute name="Aggregated execution time" type="TIME">00:000:00:00:00</adonis:attribute>
+               <adonis:attribute name="Aggregated waiting time" type="TIME">00:000:00:00:00</adonis:attribute>
+               <adonis:attribute name="Aggregated resting time" type="TIME">00:000:00:00:00</adonis:attribute>
+               <adonis:attribute name="Aggregated transport time" type="TIME">00:000:00:00:00</adonis:attribute>
+               <adonis:attribute name="Aggregated costs" type="DOUBLE">0</adonis:attribute>
+               <adonis:attribute name="Aggregated personnel costs" type="DOUBLE">0</adonis:attribute>
+               <adonis:attribute name="EDP transaction costs" type="DOUBLE">0</adonis:attribute>
+               <adonis:attribute name="EDP batch costs" type="DOUBLE">0</adonis:attribute>
+               <adonis:attribute name="Postal costs" type="DOUBLE">0</adonis:attribute>
+               <adonis:attribute name="Show name" type="ENUMERATION">center</adonis:attribute>
+               <adonis:attribute name="Global task" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Auditing" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Monitoring" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Collection" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Object type" type="ENUMERATION">Information</adonis:attribute>
+            </adonis:instance>
+         </extensionElements>
+         <incoming>con.30263</incoming>
+         <outgoing>con.30248</outgoing>
+         <ioSpecification>
+            <dataInput id="dataInput_con.30253"/>
+            <inputSet>
+               <dataInputRefs>dataInput_con.30253</dataInputRefs>
+            </inputSet>
+            <outputSet/>
+         </ioSpecification>
+         <dataInputAssociation id="con.30253">
+            <sourceRef>obj.30214</sourceRef>
+            <targetRef>dataInput_con.30253</targetRef>
+         </dataInputAssociation>
+         <multiInstanceLoopCharacteristics isSequential="false" behavior="All"/>
+      </sendTask>
+      <receiveTask name="Receive check of Third Party"
+                   id="obj.30211"
+                   instantiate="false"
+                   isForCompensation="false">
+         <extensionElements>
+            <adonis:instance>
+               <adonis:attribute name="Performer" type="EXPRESSION">EXPR expr:("") val:""</adonis:attribute>
+               <adonis:attribute name="Waiting time" type="TIME">00:000:00:00:00</adonis:attribute>
+               <adonis:attribute name="Resting time" type="TIME">00:000:00:00:00</adonis:attribute>
+               <adonis:attribute name="Transport time" type="TIME">00:000:00:00:00</adonis:attribute>
+               <adonis:attribute name="Priority" type="INTEGER">10</adonis:attribute>
+               <adonis:attribute name="Continuous execution" type="ENUMERATION">no</adonis:attribute>
+               <adonis:attribute name="Cooperative" type="ENUMERATION">no</adonis:attribute>
+               <adonis:attribute name="Cooperation mode" type="ENUMERATION">synchron</adonis:attribute>
+               <adonis:attribute name="Average number of participants" type="INTEGER">1</adonis:attribute>
+               <adonis:attribute name="Min. quota of presence" type="INTEGER">100</adonis:attribute>
+               <adonis:attribute name="Execution interruptable" type="ENUMERATION">yes</adonis:attribute>
+               <adonis:attribute name="Task stack" type="ENUMERATION">personal</adonis:attribute>
+               <adonis:attribute name="Order" type="INTEGER">0</adonis:attribute>
+               <adonis:attribute name="Costs" type="DOUBLE">0</adonis:attribute>
+               <adonis:attribute name="Description" type="STRING">In this activity the SUAP office receives the opinion of other PAs relate to the specific Titolo Unico.</adonis:attribute>
+               <adonis:attribute name="External documentation" type="PROGRAMCALL">ITEM "" param:""</adonis:attribute>
+               <adonis:attribute name="Number" type="DOUBLE">0</adonis:attribute>
+               <adonis:attribute name="Aggregated execution time" type="TIME">00:000:00:00:00</adonis:attribute>
+               <adonis:attribute name="Aggregated waiting time" type="TIME">00:000:00:00:00</adonis:attribute>
+               <adonis:attribute name="Aggregated resting time" type="TIME">00:000:00:00:00</adonis:attribute>
+               <adonis:attribute name="Aggregated transport time" type="TIME">00:000:00:00:00</adonis:attribute>
+               <adonis:attribute name="Aggregated costs" type="DOUBLE">0</adonis:attribute>
+               <adonis:attribute name="Aggregated personnel costs" type="DOUBLE">0</adonis:attribute>
+               <adonis:attribute name="EDP transaction costs" type="DOUBLE">0</adonis:attribute>
+               <adonis:attribute name="EDP batch costs" type="DOUBLE">0</adonis:attribute>
+               <adonis:attribute name="Postal costs" type="DOUBLE">0</adonis:attribute>
+               <adonis:attribute name="Show name" type="ENUMERATION">center</adonis:attribute>
+               <adonis:attribute name="Global task" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Auditing" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Monitoring" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Collection" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Object type" type="ENUMERATION">Information</adonis:attribute>
+            </adonis:instance>
+         </extensionElements>
+         <incoming>con.30248</incoming>
+         <outgoing>con.30251</outgoing>
+         <ioSpecification>
+            <dataInput id="dataInput_con.30260"/>
+            <inputSet>
+               <dataInputRefs>dataInput_con.30260</dataInputRefs>
+            </inputSet>
+            <outputSet/>
+         </ioSpecification>
+         <dataInputAssociation id="con.30260">
+            <sourceRef>obj.30220</sourceRef>
+            <targetRef>dataInput_con.30260</targetRef>
+         </dataInputAssociation>
+         <multiInstanceLoopCharacteristics isSequential="false" behavior="All"/>
+      </receiveTask>
+      <dataObjectReference id="obj.30214" name="Instance" dataObjectRef="dataObject_obj.30214">
+         <extensionElements>
+            <adonis:instance>
+               <adonis:attribute name="Collection" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Description" type="STRING">It is the data object representing all the documents and certificates that the entrepreneur sends to the SUAP office. It is composed by a set of artifacts that change due to the entrepreneur request. Relevant documents are following reported. SCIA Form is mandatory relevant document where all the personal data of the entrepreneur and information about the type of commercial activity are described. This is a very complex data-object composed by several fields and attachments some of them are mandatory and other are optional. In some cases other documents are also relevant. Self-Declaration of moral and professional requirements is another mandatory document where the entrepreneur declares that he/she is qualified to open the commercial activity.  The Residence of Permit is an optional document and it has to be provided only in case the entrepreneur is a foreigner. It is a certificate that enables foreign people to stay and work in EU countries. Declaration of other owners is a relevant document that has to be provided by the entrepreneur in the case the build under analysis is owned also by other people.</adonis:attribute>
+               <adonis:attribute name="Collection (input)" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Collection (output)" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Capacity" type="INTEGER">0</adonis:attribute>
+               <adonis:attribute name="Unlimited" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Auditing" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Monitoring" type="ENUMERATION">No</adonis:attribute>
+            </adonis:instance>
+         </extensionElements>
+      </dataObjectReference>
+      <endEvent name="Application Valid" id="obj.30217">
+         <extensionElements>
+            <adonis:instance>
+               <adonis:attribute name="Representation" type="ENUMERATION">without name</adonis:attribute>
+               <adonis:attribute name="Order" type="INTEGER">0</adonis:attribute>
+               <adonis:attribute name="Description" type="STRING">The process has successfully terminated.</adonis:attribute>
+               <adonis:attribute name="Show name" type="ENUMERATION">Yes</adonis:attribute>
+               <adonis:attribute name="Auditing" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Monitoring" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Collection" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Object type" type="ENUMERATION">Information</adonis:attribute>
+            </adonis:instance>
+         </extensionElements>
+         <incoming>con.30251</incoming>
+         <inputSet/>
+      </endEvent>
+      <dataObjectReference id="obj.30220"
+                           name="Third Party Opinion"
+                           dataObjectRef="dataObject_obj.30220">
+         <extensionElements>
+            <adonis:instance>
+               <adonis:attribute name="Collection" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Description" type="STRING">It is the data object representing the opinion of external PA party.</adonis:attribute>
+               <adonis:attribute name="Collection (input)" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Collection (output)" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Capacity" type="INTEGER">0</adonis:attribute>
+               <adonis:attribute name="Unlimited" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Auditing" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Monitoring" type="ENUMERATION">No</adonis:attribute>
+            </adonis:instance>
+         </extensionElements>
+      </dataObjectReference>
+      <task name="First Document Check"
+            id="obj.30223"
+            isForCompensation="false">
+         <extensionElements>
+            <adonis:instance>
+               <adonis:attribute name="Performer" type="EXPRESSION">EXPR expr:("") val:""</adonis:attribute>
+               <adonis:attribute name="Waiting time" type="TIME">00:000:00:00:00</adonis:attribute>
+               <adonis:attribute name="Resting time" type="TIME">00:000:00:00:00</adonis:attribute>
+               <adonis:attribute name="Transport time" type="TIME">00:000:00:00:00</adonis:attribute>
+               <adonis:attribute name="Priority" type="INTEGER">10</adonis:attribute>
+               <adonis:attribute name="Continuous execution" type="ENUMERATION">no</adonis:attribute>
+               <adonis:attribute name="Cooperative" type="ENUMERATION">no</adonis:attribute>
+               <adonis:attribute name="Cooperation mode" type="ENUMERATION">synchron</adonis:attribute>
+               <adonis:attribute name="Average number of participants" type="INTEGER">1</adonis:attribute>
+               <adonis:attribute name="Min. quota of presence" type="INTEGER">100</adonis:attribute>
+               <adonis:attribute name="Execution interruptable" type="ENUMERATION">yes</adonis:attribute>
+               <adonis:attribute name="Task stack" type="ENUMERATION">personal</adonis:attribute>
+               <adonis:attribute name="Order" type="INTEGER">0</adonis:attribute>
+               <adonis:attribute name="Costs" type="DOUBLE">0</adonis:attribute>
+               <adonis:attribute name="Description" type="STRING">In this activity the office checks the Instance in order to verify that there are no particular restrictions that ask for activate the service conference. The service conference is immediatelly convened when it is necessary to acquire necessary the documents of assent.</adonis:attribute>
+               <adonis:attribute name="External documentation" type="PROGRAMCALL">ITEM "" param:""</adonis:attribute>
+               <adonis:attribute name="Number" type="DOUBLE">0</adonis:attribute>
+               <adonis:attribute name="Aggregated execution time" type="TIME">00:000:00:00:00</adonis:attribute>
+               <adonis:attribute name="Aggregated waiting time" type="TIME">00:000:00:00:00</adonis:attribute>
+               <adonis:attribute name="Aggregated resting time" type="TIME">00:000:00:00:00</adonis:attribute>
+               <adonis:attribute name="Aggregated transport time" type="TIME">00:000:00:00:00</adonis:attribute>
+               <adonis:attribute name="Aggregated costs" type="DOUBLE">0</adonis:attribute>
+               <adonis:attribute name="Aggregated personnel costs" type="DOUBLE">0</adonis:attribute>
+               <adonis:attribute name="EDP transaction costs" type="DOUBLE">0</adonis:attribute>
+               <adonis:attribute name="EDP batch costs" type="DOUBLE">0</adonis:attribute>
+               <adonis:attribute name="Postal costs" type="DOUBLE">0</adonis:attribute>
+               <adonis:attribute name="Show name" type="ENUMERATION">center</adonis:attribute>
+               <adonis:attribute name="Global task" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Auditing" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Monitoring" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Collection" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Object type" type="ENUMERATION">Information</adonis:attribute>
+            </adonis:instance>
+         </extensionElements>
+         <incoming>con.30244</incoming>
+         <outgoing>con.30263</outgoing>
+         <ioSpecification>
+            <dataInput id="dataInput_con.30254"/>
+            <inputSet>
+               <dataInputRefs>dataInput_con.30254</dataInputRefs>
+            </inputSet>
+            <outputSet/>
+         </ioSpecification>
+         <dataInputAssociation id="con.30254">
+            <sourceRef>obj.30214</sourceRef>
+            <targetRef>dataInput_con.30254</targetRef>
+         </dataInputAssociation>
+      </task>
+      <boundaryEvent name="Intermediate Event (boundary)-28805"
+                     id="obj.30229"
+                     cancelActivity="true"
+                     attachedToRef="obj.30211">
+         <extensionElements>
+            <adonis:instance>
+               <adonis:attribute name="Description" type="STRING">No reply has been received from 3rd Party.</adonis:attribute>
+               <adonis:attribute name="External documentation" type="PROGRAMCALL">ITEM "" param:""</adonis:attribute>
+               <adonis:attribute name="Order" type="INTEGER">0</adonis:attribute>
+               <adonis:attribute name="Show name" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Auditing" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Monitoring" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Collection" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Object type" type="ENUMERATION">Information</adonis:attribute>
+            </adonis:instance>
+         </extensionElements>
+         <outgoing>con.30267</outgoing>
+         <errorEventDefinition id="errorEventDefinition_obj.30229"/>
+      </boundaryEvent>
+      <boundaryEvent name="Intermediate Event (boundary)-28817"
+                     id="obj.30232"
+                     cancelActivity="true"
+                     attachedToRef="obj.30223">
+         <extensionElements>
+            <adonis:instance>
+               <adonis:attribute name="Description" type="STRING">Inconsistency in the integration are present.</adonis:attribute>
+               <adonis:attribute name="External documentation" type="PROGRAMCALL">ITEM "" param:""</adonis:attribute>
+               <adonis:attribute name="Order" type="INTEGER">0</adonis:attribute>
+               <adonis:attribute name="Show name" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Auditing" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Monitoring" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Collection" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Object type" type="ENUMERATION">Information</adonis:attribute>
+            </adonis:instance>
+         </extensionElements>
+         <outgoing>con.30270</outgoing>
+         <errorEventDefinition id="errorEventDefinition_obj.30232"/>
+      </boundaryEvent>
+      <endEvent name="Application not Valid" id="obj.30235">
+         <extensionElements>
+            <adonis:instance>
+               <adonis:attribute name="Representation" type="ENUMERATION">without name</adonis:attribute>
+               <adonis:attribute name="Order" type="INTEGER">0</adonis:attribute>
+               <adonis:attribute name="Description" type="STRING">Some problems occurs and the subprocess terminate reporting that the application is not valid. The service conference is than activated. </adonis:attribute>
+               <adonis:attribute name="Show name" type="ENUMERATION">Yes</adonis:attribute>
+               <adonis:attribute name="Auditing" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Monitoring" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Collection" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Object type" type="ENUMERATION">Information</adonis:attribute>
+            </adonis:instance>
+         </extensionElements>
+         <incoming>con.30275</incoming>
+         <inputSet/>
+      </endEvent>
+      <exclusiveGateway name="Exclusive Gateway-29216" id="obj.30238">
+         <extensionElements>
+            <adonis:instance>
+               <adonis:attribute name="Order" type="INTEGER">0</adonis:attribute>
+               <adonis:attribute name="Description" type="STRING">This is XOR-join gateway and it acts as a pass-through meaning that it is activated each time the gateway is reached.</adonis:attribute>
+               <adonis:attribute name="Show name" type="ENUMERATION">do not show</adonis:attribute>
+            </adonis:instance>
+         </extensionElements>
+         <incoming>con.30267</incoming>
+         <incoming>con.30270</incoming>
+         <outgoing>con.30275</outgoing>
+      </exclusiveGateway>
+      <sequenceFlow sourceRef="obj.30205"
+                    targetRef="obj.30223"
+                    name=""
+                    id="con.30244">
+         <extensionElements>
+            <adonis:connector>
+               <adonis:attribute name="Representation" type="ENUMERATION">above/below</adonis:attribute>
+               <adonis:attribute name="Font colour" type="ENUMERATION">black</adonis:attribute>
+               <adonis:attribute name="Auditing" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Monitoring" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Immediate" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Rotate the visualised values by 90 degrees" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Color" type="STRING">black</adonis:attribute>
+            </adonis:connector>
+         </extensionElements>
+      </sequenceFlow>
+      <sequenceFlow sourceRef="obj.30208"
+                    targetRef="obj.30211"
+                    name=""
+                    id="con.30248">
+         <extensionElements>
+            <adonis:connector>
+               <adonis:attribute name="Representation" type="ENUMERATION">above/below</adonis:attribute>
+               <adonis:attribute name="Font colour" type="ENUMERATION">black</adonis:attribute>
+               <adonis:attribute name="Auditing" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Monitoring" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Immediate" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Rotate the visualised values by 90 degrees" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Color" type="STRING">black</adonis:attribute>
+            </adonis:connector>
+         </extensionElements>
+      </sequenceFlow>
+      <sequenceFlow sourceRef="obj.30211"
+                    targetRef="obj.30217"
+                    name=""
+                    id="con.30251">
+         <extensionElements>
+            <adonis:connector>
+               <adonis:attribute name="Representation" type="ENUMERATION">above/below</adonis:attribute>
+               <adonis:attribute name="Font colour" type="ENUMERATION">black</adonis:attribute>
+               <adonis:attribute name="Auditing" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Monitoring" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Immediate" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Rotate the visualised values by 90 degrees" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Color" type="STRING">black</adonis:attribute>
+            </adonis:connector>
+         </extensionElements>
+      </sequenceFlow>
+      <sequenceFlow sourceRef="obj.30223"
+                    targetRef="obj.30208"
+                    name=""
+                    id="con.30263">
+         <extensionElements>
+            <adonis:connector>
+               <adonis:attribute name="Representation" type="ENUMERATION">above/below</adonis:attribute>
+               <adonis:attribute name="Font colour" type="ENUMERATION">black</adonis:attribute>
+               <adonis:attribute name="Auditing" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Monitoring" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Immediate" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Rotate the visualised values by 90 degrees" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Color" type="STRING">black</adonis:attribute>
+            </adonis:connector>
+         </extensionElements>
+      </sequenceFlow>
+      <sequenceFlow sourceRef="obj.30229"
+                    targetRef="obj.30238"
+                    name=""
+                    id="con.30267">
+         <extensionElements>
+            <adonis:connector>
+               <adonis:attribute name="Representation" type="ENUMERATION">above/below</adonis:attribute>
+               <adonis:attribute name="Font colour" type="ENUMERATION">black</adonis:attribute>
+               <adonis:attribute name="Auditing" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Monitoring" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Immediate" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Rotate the visualised values by 90 degrees" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Color" type="STRING">black</adonis:attribute>
+            </adonis:connector>
+         </extensionElements>
+      </sequenceFlow>
+      <sequenceFlow sourceRef="obj.30232"
+                    targetRef="obj.30238"
+                    name=""
+                    id="con.30270">
+         <extensionElements>
+            <adonis:connector>
+               <adonis:attribute name="Representation" type="ENUMERATION">above/below</adonis:attribute>
+               <adonis:attribute name="Font colour" type="ENUMERATION">black</adonis:attribute>
+               <adonis:attribute name="Auditing" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Monitoring" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Immediate" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Rotate the visualised values by 90 degrees" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Color" type="STRING">black</adonis:attribute>
+            </adonis:connector>
+         </extensionElements>
+      </sequenceFlow>
+      <sequenceFlow sourceRef="obj.30238"
+                    targetRef="obj.30235"
+                    name=""
+                    id="con.30275">
+         <extensionElements>
+            <adonis:connector>
+               <adonis:attribute name="Representation" type="ENUMERATION">above/below</adonis:attribute>
+               <adonis:attribute name="Font colour" type="ENUMERATION">black</adonis:attribute>
+               <adonis:attribute name="Auditing" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Monitoring" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Immediate" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Rotate the visualised values by 90 degrees" type="ENUMERATION">No</adonis:attribute>
+               <adonis:attribute name="Color" type="STRING">black</adonis:attribute>
+            </adonis:connector>
+         </extensionElements>
+      </sequenceFlow>
+   </process>
+   <process name="Third Party PA" id="process_obj.30226" isExecutable="false">
+      <extensionElements>
+         <adonis:instance>
+            <adonis:attribute name="Rotate the visualised values by 90 degrees" type="ENUMERATION">No</adonis:attribute>
+            <adonis:attribute name="Description" type="STRING">This pool represents all the convened administration that has the power to make a binding decision for  a specific Titolo Unico. Possible third parties involved are: ASUR, VVFF, Provincia, Regione, ente gestore rete fognaria, sovraintendenza per i beni artistici architettonici ambientali e storici, rete ferroria italiana spa, ANAS, questura, prefettura, ISPESL, ufficio dogane, capitaneria di porto, etc. </adonis:attribute>
+            <adonis:attribute name="Color" type="STRING">white</adonis:attribute>
+            <adonis:attribute name="Orientation" type="ENUMERATION">horizontal</adonis:attribute>
+            <adonis:attribute name="Auditing" type="ENUMERATION">No</adonis:attribute>
+            <adonis:attribute name="Monitoring" type="ENUMERATION">No</adonis:attribute>
+            <adonis:attribute name="Process type" type="ENUMERATION">None</adonis:attribute>
+            <adonis:attribute name="Closed" type="ENUMERATION">No</adonis:attribute>
+         </adonis:instance>
+         <adonis:modelattributes>
+            <adonis:attribute name="Name" type="STRING">011 - Check Application</adonis:attribute>
+            <adonis:attribute name="Creation date" type="STRING">11.08.2015, 15:15</adonis:attribute>
+            <adonis:attribute name="Date last changed" type="STRING">31.03.2016, 01:19:01</adonis:attribute>
+            <adonis:attribute name="Last user" type="STRING">Admin</adonis:attribute>
+            <adonis:attribute name="Model type" type="ENUMERATION">Current model</adonis:attribute>
+            <adonis:attribute name="State" type="ENUMERATION">In process</adonis:attribute>
+            <adonis:attribute name="Description" type="STRING">Several third party administrations are involved in the Titolo Unico business process. They are external Public Administration delegated to do some checks. This subprocess refers to the activities related to their partecipation. In this activity the SUAP office checks the documents and certificates in order to verify that there are no restrictions. At the same time, it asks the third party administration to do the same.</adonis:attribute>
+            <adonis:attribute name="Number of objects and relations" type="INTEGER">49</adonis:attribute>
+            <adonis:attribute name="World area" type="STRING">w:41cm h:28.79cm minw:5cm minh:5cm</adonis:attribute>
+            <adonis:attribute name="Zoom" type="INTEGER">78</adonis:attribute>
+            <adonis:attribute name="Viewable area" type="STRING">VIEW representation:graphic
+GRAPHIC x:-16 y:-16 w:1194 h:670 scale:0.78
+TABLE
+</adonis:attribute>
+            <adonis:attribute name="Current mode" type="STRING">All modelling objects</adonis:attribute>
+            <adonis:attribute name="Base name" type="STRING">011 - Check Application</adonis:attribute>
+            <adonis:attribute name="Access state" type="ENUMERATION">write</adonis:attribute>
+            <adonis:attribute name="Type" type="STRING">Business process diagram (BPMN 2.0)</adonis:attribute>
+            <adonis:attribute name="Change counter" type="INTEGER">13229</adonis:attribute>
+            <adonis:attribute name="Font size" type="INTEGER">0</adonis:attribute>
+            <adonis:attribute name="Auditing" type="ENUMERATION">No</adonis:attribute>
+            <adonis:attribute name="Monitoring" type="ENUMERATION">No</adonis:attribute>
+            <adonis:attribute name="Process type" type="ENUMERATION">None</adonis:attribute>
+            <adonis:attribute name="Executable" type="ENUMERATION">No</adonis:attribute>
+            <adonis:attribute name="Closed" type="ENUMERATION">No</adonis:attribute>
+            <adonis:record name="Change history"/>
+         </adonis:modelattributes>
+      </extensionElements>
+   </process>
+   <bpmndi:BPMNDiagram name="011 - Check Application" id="Diagram_30198">
+      <bpmndi:BPMNPlane id="BPMNPlane_30198" bpmnElement="Collaboration_30198">
+         <bpmndi:BPMNShape bpmnElement="obj.30199"
+                           isHorizontal="true"
+                           id="BPMN_Shape_obj.30199">
+            <omgdc:Bounds height="586" width="1361" x="-680" y="9"/>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="obj.30202"
+                           isHorizontal="true"
+                           id="BPMN_Shape_obj.30202">
+            <omgdc:Bounds width="1247" height="586" x="113" y="302"/>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="obj.30205" id="BPMN_Shape_obj.30205">
+            <omgdc:Bounds width="53" height="53" x="219" y="484"/>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="obj.30208" id="BPMN_Shape_obj.30208">
+            <omgdc:Bounds height="76" width="151" x="605" y="472"/>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="obj.30211" id="BPMN_Shape_obj.30211">
+            <omgdc:Bounds height="76" width="151" x="869" y="472"/>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="obj.30214" id="BPMN_Shape_obj.30214">
+            <omgdc:Bounds width="45" height="53" x="507" y="352"/>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="obj.30217" id="BPMN_Shape_obj.30217">
+            <omgdc:Bounds width="53" height="53" x="1240" y="484"/>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="obj.30220" id="BPMN_Shape_obj.30220">
+            <omgdc:Bounds width="45" height="53" x="809" y="597"/>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="obj.30223" id="BPMN_Shape_obj.30223">
+            <omgdc:Bounds height="68" width="127" x="333" y="476"/>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="obj.30226"
+                           isHorizontal="true"
+                           id="BPMN_Shape_obj.30226">
+            <omgdc:Bounds height="151" width="1266" x="-633" y="-38"/>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="obj.30229" id="BPMN_Shape_obj.30229">
+            <omgdc:Bounds width="53" height="53" x="994" y="522"/>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="obj.30232" id="BPMN_Shape_obj.30232">
+            <omgdc:Bounds width="53" height="53" x="427" y="522"/>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="obj.30235" id="BPMN_Shape_obj.30235">
+            <omgdc:Bounds width="53" height="53" x="1126" y="692"/>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="obj.30238"
+                           isMarkerVisible="true"
+                           id="BPMN_Shape_obj.30238">
+            <omgdc:Bounds width="53" height="53" x="994" y="692"/>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNEdge id="BPMN_Edge_con.30244" bpmnElement="con.30244">
+            <omgdi:waypoint x="246" y="510"/>
+            <omgdi:waypoint x="397" y="510"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge id="BPMN_Edge_con.30247" bpmnElement="con.30247">
+            <omgdi:waypoint x="680" y="510"/>
+            <omgdi:waypoint x="699" y="246"/>
+            <omgdi:waypoint x="0" y="38"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge id="BPMN_Edge_con.30248" bpmnElement="con.30248">
+            <omgdi:waypoint x="680" y="510"/>
+            <omgdi:waypoint x="945" y="510"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge id="BPMN_Edge_con.30251" bpmnElement="con.30251">
+            <omgdi:waypoint x="945" y="510"/>
+            <omgdi:waypoint x="1134" y="510"/>
+            <omgdi:waypoint x="1266" y="510"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge id="BPMN_Edge_con.30253" bpmnElement="con.30253">
+            <omgdi:waypoint x="529" y="378"/>
+            <omgdi:waypoint x="643" y="378"/>
+            <omgdi:waypoint x="680" y="510"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge id="BPMN_Edge_con.30254" bpmnElement="con.30254">
+            <omgdi:waypoint x="529" y="378"/>
+            <omgdi:waypoint x="416" y="378"/>
+            <omgdi:waypoint x="397" y="510"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge id="BPMN_Edge_con.30260" bpmnElement="con.30260">
+            <omgdi:waypoint x="832" y="624"/>
+            <omgdi:waypoint x="907" y="624"/>
+            <omgdi:waypoint x="945" y="510"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge id="BPMN_Edge_con.30263" bpmnElement="con.30263">
+            <omgdi:waypoint x="397" y="510"/>
+            <omgdi:waypoint x="680" y="510"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge id="BPMN_Edge_con.30264" bpmnElement="con.30264">
+            <omgdi:waypoint x="0" y="38"/>
+            <omgdi:waypoint x="945" y="246"/>
+            <omgdi:waypoint x="945" y="510"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge id="BPMN_Edge_con.30267" bpmnElement="con.30267">
+            <omgdi:waypoint x="1021" y="548"/>
+            <omgdi:waypoint x="1021" y="624"/>
+            <omgdi:waypoint x="1021" y="718"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge id="BPMN_Edge_con.30270" bpmnElement="con.30270">
+            <omgdi:waypoint x="454" y="548"/>
+            <omgdi:waypoint x="454" y="718"/>
+            <omgdi:waypoint x="1021" y="718"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge id="BPMN_Edge_con.30275" bpmnElement="con.30275">
+            <omgdi:waypoint x="1021" y="718"/>
+            <omgdi:waypoint x="1153" y="718"/>
+         </bpmndi:BPMNEdge>
+      </bpmndi:BPMNPlane>
+   </bpmndi:BPMNDiagram>
+</definitions>

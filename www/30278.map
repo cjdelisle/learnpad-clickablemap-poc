@@ -1,0 +1,25 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<MAP MODELID="30278" MODELNAME="011 - Manage Service Conference" MODELTYPE="Business process diagram (BPMN 2.0)">
+  <AREA ID="31000" TYPE="connector" CLASSNAME="Message Flow" SHAPE="rect" COORDS="7,4,6,6" BBX="7" BBY="4" BBW="0" BBH="3" SBBX="7" SBBY="4" SBBW="0" SBBH="3" LAYER="1" INDEX="14" />
+  <AREA ID="30322" TYPE="connector" CLASSNAME="Data Association" SHAPE="rect" COORDS="4,6,3,6" BBX="4" BBY="6" BBW="0" BBH="1" SBBX="4" SBBY="6" SBBW="0" SBBH="1" LAYER="1" INDEX="10" />
+  <AREA ID="30294" TYPE="attribute" CLASSNAME="Data Object" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="4,6,3,5"  BBX="4" BBY="6" BBW="0" BBH="0"  LAYER="1" INDEX="9" />
+  <AREA ID="30294" TYPE="object" CLASSNAME="Data Object" SHAPE="rect" COORDS="4,5,3,5" BBX="4" BBY="5" BBW="0" BBH="1" SBBX="4" SBBY="5" SBBW="0" SBBH="1" LAYER="1" INDEX="9" POSX="4" POSY="6" />
+  <AREA ID="30310" TYPE="connector" CLASSNAME="Message Flow" SHAPE="rect" COORDS="5,4,4,6" BBX="5" BBY="4" BBW="0" BBH="3" SBBX="5" SBBY="4" SBBW="0" SBBH="3" LAYER="1" INDEX="8" />
+  <AREA ID="30313" TYPE="connector" CLASSNAME="Subsequent" SHAPE="rect" COORDS="7,7,7,6" BBX="7" BBY="7" BBW="1" BBH="0" SBBX="7" SBBY="7" SBBW="1" SBBH="0" LAYER="1" INDEX="7" />
+  <AREA ID="30309" TYPE="connector" CLASSNAME="Subsequent" SHAPE="rect" COORDS="5,7,5,6" BBX="5" BBY="7" BBW="1" BBH="0" SBBX="5" SBBY="7" SBBW="1" SBBH="0" LAYER="1" INDEX="6" />
+  <AREA ID="30306" TYPE="connector" CLASSNAME="Subsequent" SHAPE="rect" COORDS="4,7,3,6" BBX="4" BBY="7" BBW="0" BBH="0" SBBX="4" SBBY="7" SBBW="0" SBBH="0" LAYER="1" INDEX="5" />
+  <AREA ID="30291" TYPE="attribute" CLASSNAME="End Event" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="8,7,8,6"  BBX="8" BBY="7" BBW="1" BBH="0"  LAYER="1" INDEX="4" />
+  <AREA ID="30291" TYPE="object" CLASSNAME="End Event" SHAPE="rect" COORDS="8,7,8,7" BBX="8" BBY="7" BBW="1" BBH="1" SBBX="8" SBBY="7" SBBW="1" SBBH="1" LAYER="1" INDEX="4" POSX="9" POSY="7" />
+  <AREA ID="30285" TYPE="attribute" CLASSNAME="Task" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="6,7,6,6"  BBX="6" BBY="7" BBW="1" BBH="0"  LAYER="1" INDEX="3" />
+  <AREA ID="30285" TYPE="object" CLASSNAME="Task" SHAPE="rect" COORDS="6,6,6,6" BBX="6" BBY="6" BBW="1" BBH="1" SBBX="6" SBBY="6" SBBW="1" SBBH="1" LAYER="1" INDEX="3" POSX="7" POSY="7" />
+  <AREA ID="30282" TYPE="attribute" CLASSNAME="Task" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="4,7,4,6"  BBX="4" BBY="7" BBW="1" BBH="0"  LAYER="1" INDEX="2" />
+  <AREA ID="30282" TYPE="object" CLASSNAME="Task" SHAPE="rect" COORDS="4,6,4,6" BBX="4" BBY="6" BBW="1" BBH="1" SBBX="4" SBBY="6" SBBW="1" SBBH="1" LAYER="1" INDEX="2" POSX="5" POSY="7" />
+  <AREA ID="30279" TYPE="attribute" CLASSNAME="Start Event" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="3,7,3,6"  BBX="3" BBY="7" BBW="1" BBH="0"  LAYER="1" INDEX="1" />
+  <AREA ID="30279" TYPE="object" CLASSNAME="Start Event" SHAPE="rect" COORDS="3,7,3,7" BBX="3" BBY="7" BBW="1" BBH="1" SBBX="3" SBBY="7" SBBW="1" SBBH="1" LAYER="1" INDEX="1" POSX="3" POSY="7" />
+  <AREA ID="30303" TYPE="attribute" CLASSNAME="Lane" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="2,6,2,5"  BBX="2" BBY="6" BBW="1" BBH="0"  LAYER="-1" INDEX="13" />
+  <AREA ID="30303" TYPE="object" CLASSNAME="Lane" SHAPE="rect" COORDS="2,5,9,6" BBX="2" BBY="5" BBW="8" BBH="2" SBBX="2" SBBY="5" SBBW="8" SBBH="2" LAYER="-1" INDEX="13" POSX="2" POSY="5" />
+  <AREA ID="30300" TYPE="attribute" CLASSNAME="Pool" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="1,6,1,6"  BBX="1" BBY="6" BBW="1" BBH="1"  LAYER="-2" INDEX="12" />
+  <AREA ID="30300" TYPE="object" CLASSNAME="Pool" SHAPE="rect" COORDS="1,5,9,6" BBX="1" BBY="5" BBW="9" BBH="2" SBBX="1" SBBY="5" SBBW="9" SBBH="2" LAYER="-2" INDEX="12" POSX="1" POSY="5" />
+  <AREA ID="30297" TYPE="attribute" CLASSNAME="Pool" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="1,3,1,2"  BBX="1" BBY="3" BBW="1" BBH="0"  LAYER="-2" INDEX="11" />
+  <AREA ID="30297" TYPE="object" CLASSNAME="Pool" SHAPE="rect" COORDS="1,2,10,3" BBX="1" BBY="2" BBW="10" BBH="2" SBBX="1" SBBY="2" SBBW="10" SBBH="2" LAYER="-2" INDEX="11" POSX="1" POSY="2" />
+</MAP>

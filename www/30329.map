@@ -1,0 +1,25 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<MAP MODELID="30329" MODELNAME="05 - Business Motivation Model Titolo Unico" MODELTYPE="BMM">
+  <AREA ID="30352" TYPE="attribute" CLASSNAME="Generic Relation" ATTRID="12557" ATTRNAME="Name" SHAPE="rect" COORDS="2,4,1,3"  BBX="2" BBY="4" BBW="0" BBH="0"  LAYER="1" INDEX="11" />
+  <AREA ID="30352" TYPE="connector" CLASSNAME="Generic Relation" SHAPE="rect" COORDS="2,3,1,3" BBX="2" BBY="3" BBW="0" BBH="1" SBBX="2" SBBY="3" SBBW="0" SBBH="1" LAYER="1" INDEX="11" />
+  <AREA ID="30349" TYPE="attribute" CLASSNAME="Generic Relation" ATTRID="12557" ATTRNAME="Name" SHAPE="rect" COORDS="3,3,2,2"  BBX="3" BBY="3" BBW="0" BBH="0"  LAYER="1" INDEX="10" />
+  <AREA ID="30349" TYPE="connector" CLASSNAME="Generic Relation" SHAPE="rect" COORDS="2,3,2,2" BBX="2" BBY="3" BBW="1" BBH="0" SBBX="2" SBBY="3" SBBW="1" SBBH="0" LAYER="1" INDEX="10" />
+  <AREA ID="30345" TYPE="attribute" CLASSNAME="Tactic" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="1,4,1,3"  BBX="1" BBY="4" BBW="1" BBH="0"  LAYER="1" INDEX="9" />
+  <AREA ID="30345" TYPE="object" CLASSNAME="Tactic" SHAPE="rect" COORDS="1,4,1,4" BBX="1" BBY="4" BBW="1" BBH="1" SBBX="1" SBBY="4" SBBW="1" SBBH="0" LAYER="1" INDEX="9" POSX="2" POSY="4" />
+  <AREA ID="30342" TYPE="attribute" CLASSNAME="Strategy" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="1,3,1,2"  BBX="1" BBY="3" BBW="1" BBH="0"  LAYER="1" INDEX="8" />
+  <AREA ID="30342" TYPE="object" CLASSNAME="Strategy" SHAPE="rect" COORDS="1,2,1,2" BBX="1" BBY="2" BBW="1" BBH="1" SBBX="1" SBBY="2" SBBW="1" SBBH="0" LAYER="1" INDEX="8" POSX="2" POSY="3" />
+  <AREA ID="30351" TYPE="attribute" CLASSNAME="Generic Relation" ATTRID="12557" ATTRNAME="Name" SHAPE="rect" COORDS="5,2,4,1"  BBX="5" BBY="2" BBW="0" BBH="0"  LAYER="1" INDEX="7" />
+  <AREA ID="30351" TYPE="connector" CLASSNAME="Generic Relation" SHAPE="rect" COORDS="5,1,4,1" BBX="5" BBY="1" BBW="0" BBH="1" SBBX="5" SBBY="1" SBBW="0" SBBH="1" LAYER="1" INDEX="7" />
+  <AREA ID="30350" TYPE="attribute" CLASSNAME="Generic Relation" ATTRID="12557" ATTRNAME="Name" SHAPE="rect" COORDS="6,2,5,1"  BBX="6" BBY="2" BBW="0" BBH="0"  LAYER="1" INDEX="6" />
+  <AREA ID="30350" TYPE="connector" CLASSNAME="Generic Relation" SHAPE="rect" COORDS="6,1,6,1" BBX="6" BBY="1" BBW="1" BBH="1" SBBX="6" SBBY="1" SBBW="1" SBBH="1" LAYER="1" INDEX="6" />
+  <AREA ID="30348" TYPE="attribute" CLASSNAME="Generic Relation" ATTRID="12557" ATTRNAME="Name" SHAPE="rect" COORDS="4,2,3,1"  BBX="4" BBY="2" BBW="0" BBH="0"  LAYER="1" INDEX="5" />
+  <AREA ID="30348" TYPE="connector" CLASSNAME="Generic Relation" SHAPE="rect" COORDS="4,1,4,1" BBX="4" BBY="1" BBW="1" BBH="1" SBBX="4" SBBY="1" SBBW="1" SBBH="1" LAYER="1" INDEX="5" />
+  <AREA ID="30339" TYPE="attribute" CLASSNAME="Vision" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="5,1,5,0"  BBX="5" BBY="1" BBW="1" BBH="0"  LAYER="1" INDEX="4" />
+  <AREA ID="30339" TYPE="object" CLASSNAME="Vision" SHAPE="rect" COORDS="5,0,5,0" BBX="5" BBY="0" BBW="1" BBH="1" SBBX="5" SBBY="0" SBBW="1" SBBH="0" LAYER="1" INDEX="4" POSX="5" POSY="1" />
+  <AREA ID="30336" TYPE="attribute" CLASSNAME="Goal" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="5,3,5,2"  BBX="5" BBY="3" BBW="1" BBH="0"  LAYER="1" INDEX="3" />
+  <AREA ID="30336" TYPE="object" CLASSNAME="Goal" SHAPE="rect" COORDS="5,2,5,2" BBX="5" BBY="2" BBW="1" BBH="1" SBBX="5" SBBY="2" SBBW="1" SBBH="0" LAYER="1" INDEX="3" POSX="5" POSY="3" />
+  <AREA ID="30333" TYPE="attribute" CLASSNAME="Goal" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="6,3,6,2"  BBX="6" BBY="3" BBW="1" BBH="0"  LAYER="1" INDEX="2" />
+  <AREA ID="30333" TYPE="object" CLASSNAME="Goal" SHAPE="rect" COORDS="6,2,6,2" BBX="6" BBY="2" BBW="1" BBH="1" SBBX="6" SBBY="2" SBBW="1" SBBH="0" LAYER="1" INDEX="2" POSX="7" POSY="3" />
+  <AREA ID="30330" TYPE="attribute" CLASSNAME="Goal" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="3,3,3,2"  BBX="3" BBY="3" BBW="1" BBH="0"  LAYER="1" INDEX="1" />
+  <AREA ID="30330" TYPE="object" CLASSNAME="Goal" SHAPE="rect" COORDS="3,2,3,2" BBX="3" BBY="2" BBW="1" BBH="1" SBBX="4" SBBY="2" SBBW="1" SBBH="0" LAYER="1" INDEX="1" POSX="4" POSY="3" />
+</MAP>

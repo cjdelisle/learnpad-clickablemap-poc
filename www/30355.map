@@ -1,0 +1,247 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<MAP MODELID="30355" MODELNAME="06 - LearnPAd Score Card - KPI-Overview" MODELTYPE="KPI-Overview">
+  <AREA ID="30689" TYPE="connector" CLASSNAME="supports" SHAPE="rect" COORDS="3,6,3,10" BBX="3" BBY="6" BBW="1" BBH="5" SBBX="3" SBBY="6" SBBW="1" SBBH="5" LAYER="1" INDEX="133" />
+  <AREA ID="30705" TYPE="connector" CLASSNAME="quantifies" SHAPE="rect" COORDS="2,11,3,10" BBX="2" BBY="11" BBW="2" BBH="0" SBBX="2" SBBY="11" SBBW="2" SBBH="0" LAYER="1" INDEX="132" />
+  <AREA ID="30574" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="2,11,2,10"  BBX="2" BBY="11" BBW="1" BBH="0"  LAYER="1" INDEX="131" />
+  <AREA ID="30574" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="2,11,2,10"  BBX="2" BBY="11" BBW="1" BBH="0"  LAYER="1" INDEX="131" />
+  <AREA ID="30574" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="2,11,2,11" BBX="2" BBY="11" BBW="1" BBH="1" SBBX="2" SBBY="11" SBBW="0" SBBH="0" LAYER="1" INDEX="131" POSX="2" POSY="11" />
+  <AREA ID="30635" TYPE="connector" CLASSNAME="supports" SHAPE="rect" COORDS="3,12,3,13" BBX="3" BBY="12" BBW="1" BBH="2" SBBX="3" SBBY="12" SBBW="1" SBBH="2" LAYER="1" INDEX="130" />
+  <AREA ID="30703" TYPE="connector" CLASSNAME="quantifies" SHAPE="rect" COORDS="7,13,6,13" BBX="7" BBY="13" BBW="0" BBH="1" SBBX="7" SBBY="13" SBBW="0" SBBH="1" LAYER="1" INDEX="129" />
+  <AREA ID="30571" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="6,13,6,12"  BBX="6" BBY="13" BBW="1" BBH="0"  LAYER="1" INDEX="128" />
+  <AREA ID="30571" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="6,13,6,12"  BBX="6" BBY="13" BBW="1" BBH="0"  LAYER="1" INDEX="128" />
+  <AREA ID="30571" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="6,12,6,12" BBX="6" BBY="12" BBW="1" BBH="1" SBBX="6" SBBY="12" SBBW="0" SBBH="0" LAYER="1" INDEX="128" POSX="7" POSY="13" />
+  <AREA ID="30701" TYPE="connector" CLASSNAME="quantifies" SHAPE="rect" COORDS="3,4,2,3" BBX="3" BBY="4" BBW="0" BBH="0" SBBX="3" SBBY="4" SBBW="0" SBBH="0" LAYER="1" INDEX="127" />
+  <AREA ID="30568" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="2,4,2,3"  BBX="2" BBY="4" BBW="1" BBH="0"  LAYER="1" INDEX="126" />
+  <AREA ID="30568" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="2,4,2,3"  BBX="2" BBY="4" BBW="1" BBH="0"  LAYER="1" INDEX="126" />
+  <AREA ID="30568" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="2,4,2,4" BBX="2" BBY="4" BBW="1" BBH="1" SBBX="2" SBBY="4" SBBW="0" SBBH="0" LAYER="1" INDEX="126" POSX="2" POSY="4" />
+  <AREA ID="30699" TYPE="connector" CLASSNAME="quantifies" SHAPE="rect" COORDS="3,2,2,2" BBX="3" BBY="2" BBW="0" BBH="1" SBBX="3" SBBY="2" SBBW="0" SBBH="1" LAYER="1" INDEX="125" />
+  <AREA ID="30565" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="2,3,2,2"  BBX="2" BBY="3" BBW="1" BBH="0"  LAYER="1" INDEX="124" />
+  <AREA ID="30565" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="2,3,2,2"  BBX="2" BBY="3" BBW="1" BBH="0"  LAYER="1" INDEX="124" />
+  <AREA ID="30565" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="2,2,2,2" BBX="2" BBY="2" BBW="1" BBH="1" SBBX="3" SBBY="2" SBBW="0" SBBH="0" LAYER="1" INDEX="124" POSX="3" POSY="3" />
+  <AREA ID="30696" TYPE="connector" CLASSNAME="measures" SHAPE="rect" COORDS="7,10,7,9" BBX="7" BBY="10" BBW="1" BBH="0" SBBX="7" SBBY="10" SBBW="1" SBBH="0" LAYER="1" INDEX="123" />
+  <AREA ID="30559" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="8,10,8,9"  BBX="8" BBY="10" BBW="1" BBH="0"  LAYER="1" INDEX="122" />
+  <AREA ID="30559" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="8,10,8,9"  BBX="8" BBY="10" BBW="1" BBH="0"  LAYER="1" INDEX="122" />
+  <AREA ID="30559" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="8,10,8,10" BBX="8" BBY="10" BBW="1" BBH="1" SBBX="8" SBBY="10" SBBW="0" SBBH="0" LAYER="1" INDEX="122" POSX="8" POSY="10" />
+  <AREA ID="30606" TYPE="connector" CLASSNAME="measures" SHAPE="rect" COORDS="7,18,7,18" BBX="7" BBY="18" BBW="1" BBH="1" SBBX="7" SBBY="18" SBBW="1" SBBH="1" LAYER="1" INDEX="121" />
+  <AREA ID="30618" TYPE="connector" CLASSNAME="measures" SHAPE="rect" COORDS="7,18,6,18" BBX="7" BBY="18" BBW="0" BBH="1" SBBX="7" SBBY="18" SBBW="0" SBBH="1" LAYER="1" INDEX="120" />
+  <AREA ID="30694" TYPE="connector" CLASSNAME="measures" SHAPE="rect" COORDS="7,11,7,10" BBX="7" BBY="11" BBW="1" BBH="0" SBBX="7" SBBY="11" SBBW="1" SBBH="0" LAYER="1" INDEX="119" />
+  <AREA ID="30556" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="8,12,8,11"  BBX="8" BBY="12" BBW="1" BBH="0"  LAYER="1" INDEX="118" />
+  <AREA ID="30556" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="8,12,8,11"  BBX="8" BBY="12" BBW="1" BBH="0"  LAYER="1" INDEX="118" />
+  <AREA ID="30556" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="8,11,8,11" BBX="8" BBY="11" BBW="1" BBH="1" SBBX="8" SBBY="11" SBBW="0" SBBH="0" LAYER="1" INDEX="118" POSX="8" POSY="11" />
+  <AREA ID="30692" TYPE="connector" CLASSNAME="enables" SHAPE="rect" COORDS="4,11,5,10" BBX="4" BBY="11" BBW="2" BBH="0" SBBX="4" SBBY="11" SBBW="2" SBBH="0" LAYER="1" INDEX="117" />
+  <AREA ID="30551" TYPE="attribute" CLASSNAME="Learning goal" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="6,11,6,11"  BBX="6" BBY="11" BBW="1" BBH="1"  LAYER="1" INDEX="116" />
+  <AREA ID="30551" TYPE="object" CLASSNAME="Learning goal" SHAPE="rect" COORDS="6,11,6,11" BBX="6" BBY="11" BBW="1" BBH="1" SBBX="7" SBBY="11" SBBW="1" SBBH="1" LAYER="1" INDEX="116" POSX="7" POSY="11" />
+  <AREA ID="30584" TYPE="connector" CLASSNAME="supports" SHAPE="rect" COORDS="5,11,6,13" BBX="5" BBY="11" BBW="2" BBH="3" SBBX="5" SBBY="11" SBBW="2" SBBH="3" LAYER="1" INDEX="115" />
+  <AREA ID="30690" TYPE="connector" CLASSNAME="quantifies" SHAPE="rect" COORDS="4,10,4,10" BBX="4" BBY="10" BBW="1" BBH="1" SBBX="4" SBBY="10" SBBW="1" SBBH="1" LAYER="1" INDEX="114" />
+  <AREA ID="30548" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="5,10,5,9"  BBX="5" BBY="10" BBW="1" BBH="0"  LAYER="1" INDEX="113" />
+  <AREA ID="30548" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="5,10,5,9"  BBX="5" BBY="10" BBW="1" BBH="0"  LAYER="1" INDEX="113" />
+  <AREA ID="30548" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="5,10,5,10" BBX="5" BBY="10" BBW="1" BBH="1" SBBX="6" SBBY="10" SBBW="0" SBBH="0" LAYER="1" INDEX="113" POSX="6" POSY="10" />
+  <AREA ID="30545" TYPE="attribute" CLASSNAME="Operational goal" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="4,11,4,10"  BBX="4" BBY="11" BBW="1" BBH="0"  LAYER="1" INDEX="112" />
+  <AREA ID="30545" TYPE="object" CLASSNAME="Operational goal" SHAPE="rect" COORDS="4,11,4,11" BBX="4" BBY="11" BBW="1" BBH="1" SBBX="4" SBBY="11" SBBW="1" SBBH="1" LAYER="1" INDEX="112" POSX="4" POSY="11" />
+  <AREA ID="30687" TYPE="connector" CLASSNAME="measures" SHAPE="rect" COORDS="5,3,5,2" BBX="5" BBY="3" BBW="1" BBH="0" SBBX="5" SBBY="3" SBBW="1" SBBH="0" LAYER="1" INDEX="111" />
+  <AREA ID="30542" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="5,3,5,2"  BBX="5" BBY="3" BBW="1" BBH="0"  LAYER="1" INDEX="110" />
+  <AREA ID="30542" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="5,3,5,2"  BBX="5" BBY="3" BBW="1" BBH="0"  LAYER="1" INDEX="110" />
+  <AREA ID="30542" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="5,2,5,2" BBX="5" BBY="2" BBW="1" BBH="1" SBBX="5" SBBY="2" SBBW="0" SBBH="0" LAYER="1" INDEX="110" POSX="6" POSY="3" />
+  <AREA ID="30685" TYPE="connector" CLASSNAME="quantifies" SHAPE="rect" COORDS="4,1,5,0" BBX="4" BBY="1" BBW="2" BBH="0" SBBX="4" SBBY="1" SBBW="2" SBBH="0" LAYER="1" INDEX="109" />
+  <AREA ID="30539" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="5,2,5,1"  BBX="5" BBY="2" BBW="1" BBH="0"  LAYER="1" INDEX="108" />
+  <AREA ID="30539" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="5,2,5,1"  BBX="5" BBY="2" BBW="1" BBH="0"  LAYER="1" INDEX="108" />
+  <AREA ID="30539" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="5,1,5,1" BBX="5" BBY="1" BBW="1" BBH="1" SBBX="5" SBBY="1" SBBW="0" SBBH="0" LAYER="1" INDEX="108" POSX="6" POSY="2" />
+  <AREA ID="30683" TYPE="connector" CLASSNAME="enables" SHAPE="rect" COORDS="4,2,3,2" BBX="4" BBY="2" BBW="0" BBH="1" SBBX="4" SBBY="2" SBBW="0" SBBH="1" LAYER="1" INDEX="107" />
+  <AREA ID="30534" TYPE="attribute" CLASSNAME="Learning goal" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="4,3,4,2"  BBX="4" BBY="3" BBW="1" BBH="0"  LAYER="1" INDEX="106" />
+  <AREA ID="30534" TYPE="object" CLASSNAME="Learning goal" SHAPE="rect" COORDS="4,2,4,2" BBX="4" BBY="2" BBW="1" BBH="1" SBBX="4" SBBY="2" SBBW="1" SBBH="1" LAYER="1" INDEX="106" POSX="4" POSY="3" />
+  <AREA ID="30641" TYPE="connector" CLASSNAME="supports" SHAPE="rect" COORDS="3,2,2,4" BBX="3" BBY="2" BBW="0" BBH="3" SBBX="3" SBBY="2" SBBW="0" SBBH="3" LAYER="1" INDEX="105" />
+  <AREA ID="30645" TYPE="connector" CLASSNAME="contributes to" SHAPE="rect" COORDS="5,4,6,3" BBX="5" BBY="4" BBW="2" BBH="0" SBBX="5" SBBY="4" SBBW="2" SBBH="0" LAYER="1" INDEX="104" />
+  <AREA ID="30651" TYPE="connector" CLASSNAME="enables" SHAPE="rect" COORDS="4,6,4,6" BBX="4" BBY="6" BBW="1" BBH="1" SBBX="4" SBBY="6" SBBW="1" SBBH="1" LAYER="1" INDEX="103" />
+  <AREA ID="30649" TYPE="connector" CLASSNAME="enables" SHAPE="rect" COORDS="3,6,2,6" BBX="3" BBY="6" BBW="0" BBH="1" SBBX="3" SBBY="6" SBBW="0" SBBH="1" LAYER="1" INDEX="102" />
+  <AREA ID="30643" TYPE="connector" CLASSNAME="supports" SHAPE="rect" COORDS="4,1,6,0" BBX="4" BBY="1" BBW="3" BBH="0" SBBX="4" SBBY="1" SBBW="3" SBBH="0" LAYER="1" INDEX="101" />
+  <AREA ID="30644" TYPE="connector" CLASSNAME="contributes to" SHAPE="rect" COORDS="7,3,6,2" BBX="7" BBY="3" BBW="0" BBH="0" SBBX="7" SBBY="3" SBBW="0" SBBH="0" LAYER="1" INDEX="100" />
+  <AREA ID="30679" TYPE="connector" CLASSNAME="enables" SHAPE="rect" COORDS="2,5,2,4" BBX="2" BBY="5" BBW="1" BBH="0" SBBX="2" SBBY="5" SBBW="1" SBBH="0" LAYER="1" INDEX="99" />
+  <AREA ID="30680" TYPE="connector" CLASSNAME="measures" SHAPE="rect" COORDS="2,6,1,5" BBX="2" BBY="6" BBW="0" BBH="0" SBBX="2" SBBY="6" SBBW="0" SBBH="0" LAYER="1" INDEX="98" />
+  <AREA ID="30531" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="1,7,1,6"  BBX="1" BBY="7" BBW="1" BBH="0"  LAYER="1" INDEX="97" />
+  <AREA ID="30531" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="1,7,1,6"  BBX="1" BBY="7" BBW="1" BBH="0"  LAYER="1" INDEX="97" />
+  <AREA ID="30531" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="1,6,1,6" BBX="1" BBY="6" BBW="1" BBH="1" SBBX="2" SBBY="6" SBBW="0" SBBH="0" LAYER="1" INDEX="97" POSX="2" POSY="7" />
+  <AREA ID="30528" TYPE="attribute" CLASSNAME="Learning goal" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="1,6,1,5"  BBX="1" BBY="6" BBW="1" BBH="0"  LAYER="1" INDEX="96" />
+  <AREA ID="30528" TYPE="object" CLASSNAME="Learning goal" SHAPE="rect" COORDS="1,5,1,5" BBX="1" BBY="5" BBW="1" BBH="1" SBBX="1" SBBY="5" SBBW="1" SBBH="1" LAYER="1" INDEX="96" POSX="2" POSY="5" />
+  <AREA ID="30676" TYPE="connector" CLASSNAME="quantifies" SHAPE="rect" COORDS="2,1,2,0" BBX="2" BBY="1" BBW="1" BBH="0" SBBX="2" SBBY="1" SBBW="1" SBBH="0" LAYER="1" INDEX="95" />
+  <AREA ID="30525" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="2,1,2,0"  BBX="2" BBY="1" BBW="1" BBH="0"  LAYER="1" INDEX="94" />
+  <AREA ID="30525" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="2,1,2,0"  BBX="2" BBY="1" BBW="1" BBH="0"  LAYER="1" INDEX="94" />
+  <AREA ID="30525" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="2,1,2,1" BBX="2" BBY="1" BBW="1" BBH="1" SBBX="2" SBBY="1" SBBW="0" SBBH="0" LAYER="1" INDEX="94" POSX="2" POSY="1" />
+  <AREA ID="30674" TYPE="connector" CLASSNAME="measures" SHAPE="rect" COORDS="5,4,4,3" BBX="5" BBY="4" BBW="0" BBH="0" SBBX="5" SBBY="4" SBBW="0" SBBH="0" LAYER="1" INDEX="93" />
+  <AREA ID="30672" TYPE="connector" CLASSNAME="measures" SHAPE="rect" COORDS="6,7,5,7" BBX="6" BBY="7" BBW="0" BBH="1" SBBX="6" SBBY="7" SBBW="0" SBBH="1" LAYER="1" INDEX="92" />
+  <AREA ID="30522" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="6,5,6,5"  BBX="6" BBY="5" BBW="1" BBH="1"  LAYER="1" INDEX="91" />
+  <AREA ID="30522" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="6,5,6,5"  BBX="6" BBY="5" BBW="1" BBH="1"  LAYER="1" INDEX="91" />
+  <AREA ID="30522" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="6,5,6,5" BBX="6" BBY="5" BBW="1" BBH="1" SBBX="6" SBBY="5" SBBW="0" SBBH="0" LAYER="1" INDEX="91" POSX="6" POSY="5" />
+  <AREA ID="30519" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="6,8,6,8"  BBX="6" BBY="8" BBW="1" BBH="1"  LAYER="1" INDEX="90" />
+  <AREA ID="30519" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="6,8,6,8"  BBX="6" BBY="8" BBW="1" BBH="1"  LAYER="1" INDEX="90" />
+  <AREA ID="30519" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="6,8,6,8" BBX="6" BBY="8" BBW="1" BBH="1" SBBX="6" SBBY="8" SBBW="0" SBBH="0" LAYER="1" INDEX="90" POSX="6" POSY="8" />
+  <AREA ID="30668" TYPE="connector" CLASSNAME="enables" SHAPE="rect" COORDS="4,4,4,4" BBX="4" BBY="4" BBW="1" BBH="1" SBBX="4" SBBY="4" SBBW="1" SBBH="1" LAYER="1" INDEX="89" />
+  <AREA ID="30666" TYPE="connector" CLASSNAME="enables" SHAPE="rect" COORDS="4,5,5,5" BBX="4" BBY="5" BBW="2" BBH="1" SBBX="4" SBBY="5" SBBW="2" SBBH="1" LAYER="1" INDEX="88" />
+  <AREA ID="30670" TYPE="connector" CLASSNAME="quantifies" SHAPE="rect" COORDS="2,1,2,0" BBX="2" BBY="1" BBW="1" BBH="0" SBBX="2" SBBY="1" SBBW="1" SBBH="0" LAYER="1" INDEX="87" />
+  <AREA ID="30516" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="2,2,2,2"  BBX="2" BBY="2" BBW="1" BBH="1"  LAYER="1" INDEX="86" />
+  <AREA ID="30516" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="2,2,2,2"  BBX="2" BBY="2" BBW="1" BBH="1"  LAYER="1" INDEX="86" />
+  <AREA ID="30516" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="2,2,2,2" BBX="2" BBY="2" BBW="1" BBH="1" SBBX="2" SBBY="2" SBBW="0" SBBH="0" LAYER="1" INDEX="86" POSX="2" POSY="2" />
+  <AREA ID="30511" TYPE="attribute" CLASSNAME="Learning goal" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="4,5,4,5"  BBX="4" BBY="5" BBW="1" BBH="1"  LAYER="1" INDEX="85" />
+  <AREA ID="30511" TYPE="object" CLASSNAME="Learning goal" SHAPE="rect" COORDS="4,4,4,4" BBX="4" BBY="4" BBW="1" BBH="1" SBBX="5" SBBY="4" SBBW="1" SBBH="1" LAYER="1" INDEX="85" POSX="5" POSY="4" />
+  <AREA ID="30506" TYPE="attribute" CLASSNAME="Learning goal" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="6,7,6,7"  BBX="6" BBY="7" BBW="1" BBH="1"  LAYER="1" INDEX="84" />
+  <AREA ID="30506" TYPE="object" CLASSNAME="Learning goal" SHAPE="rect" COORDS="6,7,6,7" BBX="6" BBY="7" BBW="1" BBH="1" SBBX="6" SBBY="7" SBBW="1" SBBH="1" LAYER="1" INDEX="84" POSX="6" POSY="7" />
+  <AREA ID="30503" TYPE="attribute" CLASSNAME="Operational goal" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="3,1,3,0"  BBX="3" BBY="1" BBW="1" BBH="0"  LAYER="1" INDEX="83" />
+  <AREA ID="30503" TYPE="object" CLASSNAME="Operational goal" SHAPE="rect" COORDS="3,1,3,1" BBX="3" BBY="1" BBW="1" BBH="1" SBBX="3" SBBY="1" SBBW="1" SBBH="1" LAYER="1" INDEX="83" POSX="3" POSY="1" />
+  <AREA ID="30663" TYPE="connector" CLASSNAME="measures" SHAPE="rect" COORDS="5,8,4,7" BBX="5" BBY="8" BBW="0" BBH="0" SBBX="5" SBBY="8" SBBW="0" SBBH="0" LAYER="1" INDEX="82" />
+  <AREA ID="30500" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="4,9,4,9"  BBX="4" BBY="9" BBW="1" BBH="1"  LAYER="1" INDEX="81" />
+  <AREA ID="30500" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="4,9,4,9"  BBX="4" BBY="9" BBW="1" BBH="1"  LAYER="1" INDEX="81" />
+  <AREA ID="30500" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="4,8,4,8" BBX="4" BBY="8" BBW="1" BBH="1" SBBX="5" SBBY="8" SBBW="0" SBBH="0" LAYER="1" INDEX="81" POSX="5" POSY="9" />
+  <AREA ID="30661" TYPE="connector" CLASSNAME="measures" SHAPE="rect" COORDS="3,8,2,7" BBX="3" BBY="8" BBW="0" BBH="0" SBBX="3" SBBY="8" SBBW="0" SBBH="0" LAYER="1" INDEX="80" />
+  <AREA ID="30497" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="2,9,2,8"  BBX="2" BBY="9" BBW="1" BBH="0"  LAYER="1" INDEX="79" />
+  <AREA ID="30497" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="2,9,2,8"  BBX="2" BBY="9" BBW="1" BBH="0"  LAYER="1" INDEX="79" />
+  <AREA ID="30497" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="2,9,2,9" BBX="2" BBY="9" BBW="1" BBH="1" SBBX="2" SBBY="9" SBBW="0" SBBH="0" LAYER="1" INDEX="79" POSX="3" POSY="9" />
+  <AREA ID="30659" TYPE="connector" CLASSNAME="measures" SHAPE="rect" COORDS="8,2,8,1" BBX="8" BBY="2" BBW="1" BBH="0" SBBX="8" SBBY="2" SBBW="1" SBBH="0" LAYER="1" INDEX="78" />
+  <AREA ID="30494" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="8,3,8,3"  BBX="8" BBY="3" BBW="1" BBH="1"  LAYER="1" INDEX="77" />
+  <AREA ID="30494" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="8,3,8,3"  BBX="8" BBY="3" BBW="1" BBH="1"  LAYER="1" INDEX="77" />
+  <AREA ID="30494" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="8,2,8,2" BBX="8" BBY="2" BBW="1" BBH="1" SBBX="8" SBBY="2" SBBW="0" SBBH="0" LAYER="1" INDEX="77" POSX="9" POSY="2" />
+  <AREA ID="30657" TYPE="connector" CLASSNAME="measures" SHAPE="rect" COORDS="8,4,8,3" BBX="8" BBY="4" BBW="1" BBH="0" SBBX="8" SBBY="4" SBBW="1" SBBH="0" LAYER="1" INDEX="76" />
+  <AREA ID="30491" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="8,4,8,4"  BBX="8" BBY="4" BBW="1" BBH="1"  LAYER="1" INDEX="75" />
+  <AREA ID="30491" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="8,4,8,4"  BBX="8" BBY="4" BBW="1" BBH="1"  LAYER="1" INDEX="75" />
+  <AREA ID="30491" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="8,4,8,4" BBX="8" BBY="4" BBW="1" BBH="1" SBBX="8" SBBY="4" SBBW="0" SBBH="0" LAYER="1" INDEX="75" POSX="9" POSY="4" />
+  <AREA ID="30655" TYPE="connector" CLASSNAME="quantifies" SHAPE="rect" COORDS="8,1,9,1" BBX="8" BBY="1" BBW="2" BBH="1" SBBX="8" SBBY="1" SBBW="2" SBBH="1" LAYER="1" INDEX="74" />
+  <AREA ID="30488" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="10,2,10,2"  BBX="10" BBY="2" BBW="1" BBH="1"  LAYER="1" INDEX="73" />
+  <AREA ID="30488" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="10,2,10,2"  BBX="10" BBY="2" BBW="1" BBH="1"  LAYER="1" INDEX="73" />
+  <AREA ID="30488" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="10,2,10,3" BBX="10" BBY="2" BBW="1" BBH="2" SBBX="10" SBBY="2" SBBW="0" SBBH="0" LAYER="1" INDEX="73" POSX="10" POSY="2" />
+  <AREA ID="30653" TYPE="connector" CLASSNAME="quantifies" SHAPE="rect" COORDS="8,1,9,0" BBX="8" BBY="1" BBW="2" BBH="0" SBBX="8" SBBY="1" SBBW="2" SBBH="0" LAYER="1" INDEX="72" />
+  <AREA ID="30485" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="9,1,9,0"  BBX="9" BBY="1" BBW="1" BBH="0"  LAYER="1" INDEX="71" />
+  <AREA ID="30485" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="9,1,9,0"  BBX="9" BBY="1" BBW="1" BBH="0"  LAYER="1" INDEX="71" />
+  <AREA ID="30485" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="9,1,9,1" BBX="9" BBY="1" BBW="1" BBH="1" SBBX="9" SBBY="1" SBBW="0" SBBH="0" LAYER="1" INDEX="71" POSX="10" POSY="1" />
+  <AREA ID="30634" TYPE="connector" CLASSNAME="supports" SHAPE="rect" COORDS="3,6,2,13" BBX="3" BBY="6" BBW="0" BBH="8" SBBX="3" SBBY="6" SBBW="0" SBBH="8" LAYER="1" INDEX="70" />
+  <AREA ID="30647" TYPE="connector" CLASSNAME="enables" SHAPE="rect" COORDS="7,2,6,2" BBX="7" BBY="2" BBW="0" BBH="1" SBBX="7" SBBY="2" SBBW="0" SBBH="1" LAYER="1" INDEX="69" />
+  <AREA ID="30482" TYPE="attribute" CLASSNAME="Learning goal" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="4,8,4,7"  BBX="4" BBY="8" BBW="1" BBH="0"  LAYER="1" INDEX="68" />
+  <AREA ID="30482" TYPE="object" CLASSNAME="Learning goal" SHAPE="rect" COORDS="4,7,4,7" BBX="4" BBY="7" BBW="1" BBH="1" SBBX="4" SBBY="7" SBBW="1" SBBH="1" LAYER="1" INDEX="68" POSX="5" POSY="7" />
+  <AREA ID="30479" TYPE="attribute" CLASSNAME="Learning goal" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="2,8,2,8"  BBX="2" BBY="8" BBW="1" BBH="1"  LAYER="1" INDEX="67" />
+  <AREA ID="30479" TYPE="object" CLASSNAME="Learning goal" SHAPE="rect" COORDS="2,7,2,7" BBX="2" BBY="7" BBW="1" BBH="1" SBBX="2" SBBY="7" SBBW="1" SBBH="1" LAYER="1" INDEX="67" POSX="3" POSY="7" />
+  <AREA ID="30476" TYPE="attribute" CLASSNAME="Learning goal" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="7,3,7,2"  BBX="7" BBY="3" BBW="1" BBH="0"  LAYER="1" INDEX="66" />
+  <AREA ID="30476" TYPE="object" CLASSNAME="Learning goal" SHAPE="rect" COORDS="7,2,7,2" BBX="7" BBY="2" BBW="1" BBH="1" SBBX="7" SBBY="2" SBBW="1" SBBH="1" LAYER="1" INDEX="66" POSX="7" POSY="2" />
+  <AREA ID="30624" TYPE="connector" CLASSNAME="quantifies" SHAPE="rect" COORDS="8,6,8,6" BBX="8" BBY="6" BBW="1" BBH="1" SBBX="8" SBBY="6" SBBW="1" SBBH="1" LAYER="1" INDEX="65" />
+  <AREA ID="30473" TYPE="attribute" CLASSNAME="Learning goal" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="7,5,7,4"  BBX="7" BBY="5" BBW="1" BBH="0"  LAYER="1" INDEX="64" />
+  <AREA ID="30473" TYPE="object" CLASSNAME="Learning goal" SHAPE="rect" COORDS="7,4,7,4" BBX="7" BBY="4" BBW="1" BBH="1" SBBX="7" SBBY="4" SBBW="1" SBBH="1" LAYER="1" INDEX="64" POSX="7" POSY="4" />
+  <AREA ID="30628" TYPE="connector" CLASSNAME="quantifies" SHAPE="rect" COORDS="7,15,6,14" BBX="7" BBY="15" BBW="0" BBH="0" SBBX="7" SBBY="15" SBBW="0" SBBH="0" LAYER="1" INDEX="63" />
+  <AREA ID="30626" TYPE="connector" CLASSNAME="supports" SHAPE="rect" COORDS="4,5,7,5" BBX="4" BBY="5" BBW="4" BBH="1" SBBX="4" SBBY="5" SBBW="4" SBBH="1" LAYER="1" INDEX="62" />
+  <AREA ID="30468" TYPE="attribute" CLASSNAME="Operational goal" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="7,1,7,0"  BBX="7" BBY="1" BBW="1" BBH="0"  LAYER="1" INDEX="61" />
+  <AREA ID="30468" TYPE="object" CLASSNAME="Operational goal" SHAPE="rect" COORDS="7,1,7,1" BBX="7" BBY="1" BBW="1" BBH="1" SBBX="7" SBBY="1" SBBW="1" SBBH="1" LAYER="1" INDEX="61" POSX="7" POSY="1" />
+  <AREA ID="30460" TYPE="attribute" CLASSNAME="Operational goal" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="3,5,3,4"  BBX="3" BBY="5" BBW="1" BBH="0"  LAYER="1" INDEX="60" />
+  <AREA ID="30460" TYPE="object" CLASSNAME="Operational goal" SHAPE="rect" COORDS="3,5,3,5" BBX="3" BBY="5" BBW="1" BBH="1" SBBX="3" SBBY="5" SBBW="1" SBBH="1" LAYER="1" INDEX="60" POSX="3" POSY="5" />
+  <AREA ID="30614" TYPE="connector" CLASSNAME="quantifies" SHAPE="rect" COORDS="8,7,8,6" BBX="8" BBY="7" BBW="1" BBH="0" SBBX="8" SBBY="7" SBBW="1" SBBH="0" LAYER="1" INDEX="59" />
+  <AREA ID="30639" TYPE="connector" CLASSNAME="quantifies" SHAPE="rect" COORDS="2,15,2,15" BBX="2" BBY="15" BBW="1" BBH="1" SBBX="2" SBBY="15" SBBW="1" SBBH="1" LAYER="1" INDEX="58" />
+  <AREA ID="30457" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="1,16,1,16"  BBX="1" BBY="16" BBW="1" BBH="1"  LAYER="1" INDEX="57" />
+  <AREA ID="30457" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="1,16,1,16"  BBX="1" BBY="16" BBW="1" BBH="1"  LAYER="1" INDEX="57" />
+  <AREA ID="30457" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="1,16,1,16" BBX="1" BBY="16" BBW="1" BBH="1" SBBX="2" SBBY="16" SBBW="0" SBBH="0" LAYER="1" INDEX="57" POSX="2" POSY="16" />
+  <AREA ID="30583" TYPE="connector" CLASSNAME="supports" SHAPE="rect" COORDS="4,14,6,13" BBX="4" BBY="14" BBW="3" BBH="0" SBBX="4" SBBY="14" SBBW="3" SBBH="0" LAYER="1" INDEX="56" />
+  <AREA ID="30636" TYPE="connector" CLASSNAME="quantifies" SHAPE="rect" COORDS="2,14,2,13" BBX="2" BBY="14" BBW="1" BBH="0" SBBX="2" SBBY="14" SBBW="1" SBBH="0" LAYER="1" INDEX="55" />
+  <AREA ID="30454" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="1,15,1,15"  BBX="1" BBY="15" BBW="1" BBH="1"  LAYER="1" INDEX="54" />
+  <AREA ID="30454" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="1,15,1,15"  BBX="1" BBY="15" BBW="1" BBH="1"  LAYER="1" INDEX="54" />
+  <AREA ID="30454" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="1,14,1,14" BBX="1" BBY="14" BBW="1" BBH="1" SBBX="2" SBBY="14" SBBW="0" SBBH="0" LAYER="1" INDEX="54" POSX="2" POSY="14" />
+  <AREA ID="30451" TYPE="attribute" CLASSNAME="Operational goal" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="3,15,3,14"  BBX="3" BBY="15" BBW="1" BBH="0"  LAYER="1" INDEX="53" />
+  <AREA ID="30451" TYPE="object" CLASSNAME="Operational goal" SHAPE="rect" COORDS="3,14,3,14" BBX="3" BBY="14" BBW="1" BBH="1" SBBX="3" SBBY="14" SBBW="1" SBBH="1" LAYER="1" INDEX="53" POSX="3" POSY="14" />
+  <AREA ID="30632" TYPE="connector" CLASSNAME="quantifies" SHAPE="rect" COORDS="5,14,6,14" BBX="5" BBY="14" BBW="2" BBH="1" SBBX="5" SBBY="14" SBBW="2" SBBH="1" LAYER="1" INDEX="52" />
+  <AREA ID="30448" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="4,14,4,13"  BBX="4" BBY="14" BBW="1" BBH="0"  LAYER="1" INDEX="51" />
+  <AREA ID="30448" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="4,14,4,13"  BBX="4" BBY="14" BBW="1" BBH="0"  LAYER="1" INDEX="51" />
+  <AREA ID="30448" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="4,13,4,13" BBX="4" BBY="13" BBW="1" BBH="1" SBBX="4" SBBY="13" SBBW="0" SBBH="0" LAYER="1" INDEX="51" POSX="4" POSY="14" />
+  <AREA ID="30582" TYPE="connector" CLASSNAME="supports" SHAPE="rect" COORDS="7,8,7,14" BBX="7" BBY="8" BBW="1" BBH="7" SBBX="7" SBBY="8" SBBW="1" SBBH="7" LAYER="1" INDEX="50" />
+  <AREA ID="30629" TYPE="connector" CLASSNAME="quantifies" SHAPE="rect" COORDS="4,15,6,15" BBX="4" BBY="15" BBW="3" BBH="1" SBBX="4" SBBY="15" SBBW="3" SBBH="1" LAYER="1" INDEX="49" />
+  <AREA ID="30445" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="3,17,3,16"  BBX="3" BBY="17" BBW="1" BBH="0"  LAYER="1" INDEX="48" />
+  <AREA ID="30445" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="3,17,3,16"  BBX="3" BBY="17" BBW="1" BBH="0"  LAYER="1" INDEX="48" />
+  <AREA ID="30445" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="3,16,3,16" BBX="3" BBY="16" BBW="1" BBH="1" SBBX="3" SBBY="16" SBBW="0" SBBH="0" LAYER="1" INDEX="48" POSX="3" POSY="16" />
+  <AREA ID="30442" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="7,16,7,15"  BBX="7" BBY="16" BBW="1" BBH="0"  LAYER="1" INDEX="47" />
+  <AREA ID="30442" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="7,16,7,15"  BBX="7" BBY="16" BBW="1" BBH="0"  LAYER="1" INDEX="47" />
+  <AREA ID="30442" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="7,16,7,16" BBX="7" BBY="16" BBW="1" BBH="1" SBBX="7" SBBY="16" SBBW="0" SBBH="0" LAYER="1" INDEX="47" POSX="8" POSY="16" />
+  <AREA ID="30439" TYPE="attribute" CLASSNAME="Operational goal" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="8,7,8,6"  BBX="8" BBY="7" BBW="1" BBH="0"  LAYER="1" INDEX="46" />
+  <AREA ID="30439" TYPE="object" CLASSNAME="Operational goal" SHAPE="rect" COORDS="8,7,8,7" BBX="8" BBY="7" BBW="1" BBH="1" SBBX="8" SBBY="7" SBBW="1" SBBH="1" LAYER="1" INDEX="46" POSX="8" POSY="7" />
+  <AREA ID="30433" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="9,6,9,5"  BBX="9" BBY="6" BBW="1" BBH="0"  LAYER="1" INDEX="45" />
+  <AREA ID="30433" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="9,6,9,5"  BBX="9" BBY="6" BBW="1" BBH="0"  LAYER="1" INDEX="45" />
+  <AREA ID="30433" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="9,5,9,5" BBX="9" BBY="5" BBW="1" BBH="1" SBBX="10" SBBY="5" SBBW="0" SBBH="0" LAYER="1" INDEX="45" POSX="10" POSY="6" />
+  <AREA ID="30622" TYPE="connector" CLASSNAME="quantifies" SHAPE="rect" COORDS="6,15,6,15" BBX="6" BBY="15" BBW="1" BBH="1" SBBX="6" SBBY="15" SBBW="1" SBBH="1" LAYER="1" INDEX="44" />
+  <AREA ID="30430" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="5,16,5,15"  BBX="5" BBY="16" BBW="1" BBH="0"  LAYER="1" INDEX="43" />
+  <AREA ID="30430" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="5,16,5,15"  BBX="5" BBY="16" BBW="1" BBH="0"  LAYER="1" INDEX="43" />
+  <AREA ID="30430" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="5,16,5,16" BBX="5" BBY="16" BBW="1" BBH="1" SBBX="6" SBBY="16" SBBW="0" SBBH="0" LAYER="1" INDEX="43" POSX="6" POSY="16" />
+  <AREA ID="30620" TYPE="connector" CLASSNAME="measures" SHAPE="rect" COORDS="2,18,2,18" BBX="2" BBY="18" BBW="1" BBH="1" SBBX="2" SBBY="18" SBBW="1" SBBH="1" LAYER="1" INDEX="42" />
+  <AREA ID="30427" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="2,19,2,18"  BBX="2" BBY="19" BBW="1" BBH="0"  LAYER="1" INDEX="41" />
+  <AREA ID="30427" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="2,19,2,18"  BBX="2" BBY="19" BBW="1" BBH="0"  LAYER="1" INDEX="41" />
+  <AREA ID="30427" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="2,19,2,19" BBX="2" BBY="19" BBW="1" BBH="1" SBBX="2" SBBY="19" SBBW="0" SBBH="0" LAYER="1" INDEX="41" POSX="2" POSY="19" />
+  <AREA ID="30588" TYPE="connector" CLASSNAME="contributes to" SHAPE="rect" COORDS="4,17,6,16" BBX="4" BBY="17" BBW="3" BBH="0" SBBX="4" SBBY="17" SBBW="3" SBBH="0" LAYER="1" INDEX="40" />
+  <AREA ID="30586" TYPE="connector" CLASSNAME="contributes to" SHAPE="rect" COORDS="5,17,5,17" BBX="5" BBY="17" BBW="1" BBH="1" SBBX="5" SBBY="17" SBBW="1" SBBH="1" LAYER="1" INDEX="39" />
+  <AREA ID="30424" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="6,20,6,19"  BBX="6" BBY="20" BBW="1" BBH="0"  LAYER="1" INDEX="38" />
+  <AREA ID="30424" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="6,20,6,19"  BBX="6" BBY="20" BBW="1" BBH="0"  LAYER="1" INDEX="38" />
+  <AREA ID="30424" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="6,19,6,19" BBX="6" BBY="19" BBW="1" BBH="1" SBBX="7" SBBY="19" SBBW="0" SBBH="0" LAYER="1" INDEX="38" POSX="7" POSY="19" />
+  <AREA ID="30578" TYPE="connector" CLASSNAME="measures" SHAPE="rect" COORDS="7,17,8,16" BBX="7" BBY="17" BBW="2" BBH="0" SBBX="7" SBBY="17" SBBW="2" SBBH="0" LAYER="1" INDEX="37" />
+  <AREA ID="30604" TYPE="connector" CLASSNAME="quantifies" SHAPE="rect" COORDS="5,15,6,15" BBX="5" BBY="15" BBW="2" BBH="1" SBBX="5" SBBY="15" SBBW="2" SBBH="1" LAYER="1" INDEX="36" />
+  <AREA ID="30616" TYPE="connector" CLASSNAME="quantifies" SHAPE="rect" COORDS="8,14,10,14" BBX="8" BBY="14" BBW="3" BBH="1" SBBX="8" SBBY="14" SBBW="3" SBBH="1" LAYER="1" INDEX="35" />
+  <AREA ID="30421" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="10,14,10,13"  BBX="10" BBY="14" BBW="1" BBH="0"  LAYER="1" INDEX="34" />
+  <AREA ID="30421" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="10,14,10,13"  BBX="10" BBY="14" BBW="1" BBH="0"  LAYER="1" INDEX="34" />
+  <AREA ID="30421" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="10,14,10,14" BBX="10" BBY="14" BBW="1" BBH="1" SBBX="10" SBBY="14" SBBW="0" SBBH="0" LAYER="1" INDEX="34" POSX="10" POSY="14" />
+  <AREA ID="30418" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="9,7,9,6"  BBX="9" BBY="7" BBW="1" BBH="0"  LAYER="1" INDEX="33" />
+  <AREA ID="30418" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="9,7,9,6"  BBX="9" BBY="7" BBW="1" BBH="0"  LAYER="1" INDEX="33" />
+  <AREA ID="30418" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="9,7,9,7" BBX="9" BBY="7" BBW="1" BBH="1" SBBX="10" SBBY="7" SBBW="0" SBBH="0" LAYER="1" INDEX="33" POSX="10" POSY="7" />
+  <AREA ID="30612" TYPE="connector" CLASSNAME="quantifies" SHAPE="rect" COORDS="8,15,9,14" BBX="8" BBY="15" BBW="2" BBH="0" SBBX="8" SBBY="15" SBBW="2" SBBH="0" LAYER="1" INDEX="32" />
+  <AREA ID="30415" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="9,15,9,14"  BBX="9" BBY="15" BBW="1" BBH="0"  LAYER="1" INDEX="31" />
+  <AREA ID="30415" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="9,15,9,14"  BBX="9" BBY="15" BBW="1" BBH="0"  LAYER="1" INDEX="31" />
+  <AREA ID="30415" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="9,15,9,15" BBX="9" BBY="15" BBW="1" BBH="1" SBBX="9" SBBY="15" SBBW="0" SBBH="0" LAYER="1" INDEX="31" POSX="10" POSY="15" />
+  <AREA ID="30610" TYPE="connector" CLASSNAME="quantifies" SHAPE="rect" COORDS="8,13,9,13" BBX="8" BBY="13" BBW="2" BBH="1" SBBX="8" SBBY="13" SBBW="2" SBBH="1" LAYER="1" INDEX="30" />
+  <AREA ID="30412" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="9,13,9,12"  BBX="9" BBY="13" BBW="1" BBH="0"  LAYER="1" INDEX="29" />
+  <AREA ID="30412" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="9,13,9,12"  BBX="9" BBY="13" BBW="1" BBH="0"  LAYER="1" INDEX="29" />
+  <AREA ID="30412" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="9,12,9,12" BBX="9" BBY="12" BBW="1" BBH="1" SBBX="9" SBBY="12" SBBW="0" SBBH="0" LAYER="1" INDEX="29" POSX="10" POSY="13" />
+  <AREA ID="30608" TYPE="connector" CLASSNAME="quantifies" SHAPE="rect" COORDS="8,15,9,15" BBX="8" BBY="15" BBW="2" BBH="1" SBBX="8" SBBY="15" SBBW="2" SBBH="1" LAYER="1" INDEX="28" />
+  <AREA ID="30409" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="10,17,10,16"  BBX="10" BBY="17" BBW="1" BBH="0"  LAYER="1" INDEX="27" />
+  <AREA ID="30409" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="10,17,10,16"  BBX="10" BBY="17" BBW="1" BBH="0"  LAYER="1" INDEX="27" />
+  <AREA ID="30409" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="10,16,10,16" BBX="10" BBY="16" BBW="1" BBH="1" SBBX="10" SBBY="16" SBBW="0" SBBH="0" LAYER="1" INDEX="27" POSX="10" POSY="16" />
+  <AREA ID="30406" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="8,19,8,19"  BBX="8" BBY="19" BBW="1" BBH="1"  LAYER="1" INDEX="26" />
+  <AREA ID="30406" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="8,19,8,19"  BBX="8" BBY="19" BBW="1" BBH="1"  LAYER="1" INDEX="26" />
+  <AREA ID="30406" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="8,19,8,19" BBX="8" BBY="19" BBW="1" BBH="1" SBBX="8" SBBY="19" SBBW="0" SBBH="0" LAYER="1" INDEX="26" POSX="8" POSY="19" />
+  <AREA ID="30403" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="4,16,4,16"  BBX="4" BBY="16" BBW="1" BBH="1"  LAYER="1" INDEX="25" />
+  <AREA ID="30403" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="4,16,4,16"  BBX="4" BBY="16" BBW="1" BBH="1"  LAYER="1" INDEX="25" />
+  <AREA ID="30403" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="4,16,4,16" BBX="4" BBY="16" BBW="1" BBH="1" SBBX="4" SBBY="16" SBBW="0" SBBH="0" LAYER="1" INDEX="25" POSX="5" POSY="16" />
+  <AREA ID="30596" TYPE="connector" CLASSNAME="measures" SHAPE="rect" COORDS="7,17,7,16" BBX="7" BBY="17" BBW="1" BBH="0" SBBX="7" SBBY="17" SBBW="1" SBBH="0" LAYER="1" INDEX="24" />
+  <AREA ID="30602" TYPE="connector" CLASSNAME="quantifies" SHAPE="rect" COORDS="6,14,6,14" BBX="6" BBY="14" BBW="1" BBH="1" SBBX="6" SBBY="14" SBBW="1" SBBH="1" LAYER="1" INDEX="23" />
+  <AREA ID="30400" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="5,13,5,12"  BBX="5" BBY="13" BBW="1" BBH="0"  LAYER="1" INDEX="22" />
+  <AREA ID="30400" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="5,13,5,12"  BBX="5" BBY="13" BBW="1" BBH="0"  LAYER="1" INDEX="22" />
+  <AREA ID="30400" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="5,13,5,13" BBX="5" BBY="13" BBW="1" BBH="1" SBBX="5" SBBY="13" SBBW="0" SBBH="0" LAYER="1" INDEX="22" POSX="6" POSY="13" />
+  <AREA ID="30600" TYPE="connector" CLASSNAME="measures" SHAPE="rect" COORDS="5,19,4,18" BBX="5" BBY="19" BBW="0" BBH="0" SBBX="5" SBBY="19" SBBW="0" SBBH="0" LAYER="1" INDEX="21" />
+  <AREA ID="30397" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="4,20,4,19"  BBX="4" BBY="20" BBW="1" BBH="0"  LAYER="1" INDEX="20" />
+  <AREA ID="30397" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="4,20,4,19"  BBX="4" BBY="20" BBW="1" BBH="0"  LAYER="1" INDEX="20" />
+  <AREA ID="30397" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="4,19,4,19" BBX="4" BBY="19" BBW="1" BBH="1" SBBX="5" SBBY="19" SBBW="0" SBBH="0" LAYER="1" INDEX="20" POSX="5" POSY="19" />
+  <AREA ID="30598" TYPE="connector" CLASSNAME="quantifies" SHAPE="rect" COORDS="7,13,6,13" BBX="7" BBY="13" BBW="0" BBH="1" SBBX="7" SBBY="13" SBBW="0" SBBH="1" LAYER="1" INDEX="19" />
+  <AREA ID="30594" TYPE="connector" CLASSNAME="measures" SHAPE="rect" COORDS="3,18,2,18" BBX="3" BBY="18" BBW="0" BBH="1" SBBX="3" SBBY="18" SBBW="0" SBBH="1" LAYER="1" INDEX="18" />
+  <AREA ID="30394" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="8,13,8,12"  BBX="8" BBY="13" BBW="1" BBH="0"  LAYER="1" INDEX="17" />
+  <AREA ID="30394" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="8,13,8,12"  BBX="8" BBY="13" BBW="1" BBH="0"  LAYER="1" INDEX="17" />
+  <AREA ID="30394" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="8,12,8,12" BBX="8" BBY="12" BBW="1" BBH="1" SBBX="8" SBBY="12" SBBW="0" SBBH="0" LAYER="1" INDEX="17" POSX="8" POSY="13" />
+  <AREA ID="30391" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="8,18,8,17"  BBX="8" BBY="18" BBW="1" BBH="0"  LAYER="1" INDEX="16" />
+  <AREA ID="30391" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="8,18,8,17"  BBX="8" BBY="18" BBW="1" BBH="0"  LAYER="1" INDEX="16" />
+  <AREA ID="30391" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="8,17,8,17" BBX="8" BBY="17" BBW="1" BBH="1" SBBX="9" SBBY="17" SBBW="0" SBBH="0" LAYER="1" INDEX="16" POSX="9" POSY="18" />
+  <AREA ID="30388" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="3,19,3,18"  BBX="3" BBY="19" BBW="1" BBH="0"  LAYER="1" INDEX="15" />
+  <AREA ID="30388" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="3,19,3,18"  BBX="3" BBY="19" BBW="1" BBH="0"  LAYER="1" INDEX="15" />
+  <AREA ID="30388" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="3,19,3,19" BBX="3" BBY="19" BBW="1" BBH="1" SBBX="3" SBBY="19" SBBW="0" SBBH="0" LAYER="1" INDEX="15" POSX="3" POSY="19" />
+  <AREA ID="30592" TYPE="connector" CLASSNAME="quantifies" SHAPE="rect" COORDS="8,15,8,15" BBX="8" BBY="15" BBW="1" BBH="1" SBBX="8" SBBY="15" SBBW="1" SBBH="1" LAYER="1" INDEX="14" />
+  <AREA ID="30385" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="8,16,8,16"  BBX="8" BBY="16" BBW="1" BBH="1"  LAYER="1" INDEX="13" />
+  <AREA ID="30385" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="8,16,8,16"  BBX="8" BBY="16" BBW="1" BBH="1"  LAYER="1" INDEX="13" />
+  <AREA ID="30385" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="8,16,8,16" BBX="8" BBY="16" BBW="1" BBH="1" SBBX="8" SBBY="16" SBBW="0" SBBH="0" LAYER="1" INDEX="13" POSX="9" POSY="16" />
+  <AREA ID="30590" TYPE="connector" CLASSNAME="quantifies" SHAPE="rect" COORDS="4,15,5,14" BBX="4" BBY="15" BBW="2" BBH="0" SBBX="4" SBBY="15" SBBW="2" SBBH="0" LAYER="1" INDEX="12" />
+  <AREA ID="30382" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="4,15,4,14"  BBX="4" BBY="15" BBW="1" BBH="0"  LAYER="1" INDEX="11" />
+  <AREA ID="30382" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="4,15,4,14"  BBX="4" BBY="15" BBW="1" BBH="0"  LAYER="1" INDEX="11" />
+  <AREA ID="30382" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="4,15,4,15" BBX="4" BBY="15" BBW="1" BBH="1" SBBX="4" SBBY="15" SBBW="0" SBBH="0" LAYER="1" INDEX="11" POSX="4" POSY="15" />
+  <AREA ID="30377" TYPE="attribute" CLASSNAME="Learning goal" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="3,18,3,17"  BBX="3" BBY="18" BBW="1" BBH="0"  LAYER="1" INDEX="10" />
+  <AREA ID="30377" TYPE="object" CLASSNAME="Learning goal" SHAPE="rect" COORDS="3,17,3,17" BBX="3" BBY="17" BBW="1" BBH="1" SBBX="3" SBBY="17" SBBW="1" SBBH="1" LAYER="1" INDEX="10" POSX="3" POSY="17" />
+  <AREA ID="30372" TYPE="attribute" CLASSNAME="Learning goal" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="4,18,4,17"  BBX="4" BBY="18" BBW="1" BBH="0"  LAYER="1" INDEX="9" />
+  <AREA ID="30372" TYPE="object" CLASSNAME="Learning goal" SHAPE="rect" COORDS="4,18,4,18" BBX="4" BBY="18" BBW="1" BBH="1" SBBX="5" SBBY="18" SBBW="1" SBBH="1" LAYER="1" INDEX="9" POSX="5" POSY="18" />
+  <AREA ID="30580" TYPE="connector" CLASSNAME="enables" SHAPE="rect" COORDS="7,15,6,15" BBX="7" BBY="15" BBW="0" BBH="1" SBBX="7" SBBY="15" SBBW="0" SBBH="1" LAYER="1" INDEX="8" />
+  <AREA ID="30367" TYPE="attribute" CLASSNAME="Operational goal" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="7,15,7,14"  BBX="7" BBY="15" BBW="1" BBH="0"  LAYER="1" INDEX="7" />
+  <AREA ID="30367" TYPE="object" CLASSNAME="Operational goal" SHAPE="rect" COORDS="7,14,7,14" BBX="7" BBY="14" BBW="1" BBH="1" SBBX="7" SBBY="14" SBBW="1" SBBH="1" LAYER="1" INDEX="7" POSX="7" POSY="15" />
+  <AREA ID="30362" TYPE="attribute" CLASSNAME="Learning goal" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="7,17,7,16"  BBX="7" BBY="17" BBW="1" BBH="0"  LAYER="1" INDEX="6" />
+  <AREA ID="30362" TYPE="object" CLASSNAME="Learning goal" SHAPE="rect" COORDS="7,17,7,17" BBX="7" BBY="17" BBW="1" BBH="1" SBBX="7" SBBY="17" SBBW="1" SBBH="1" LAYER="1" INDEX="6" POSX="7" POSY="17" />
+  <AREA ID="30356" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="9,17,9,17"  BBX="9" BBY="17" BBW="1" BBH="1"  LAYER="1" INDEX="1" />
+  <AREA ID="30356" TYPE="attribute" CLASSNAME="Performance indicator" ATTRID="11034" ATTRNAME="Referenced indicator" SHAPE="rect" COORDS="9,17,9,17"  BBX="9" BBY="17" BBW="1" BBH="1"  LAYER="1" INDEX="1" />
+  <AREA ID="30356" TYPE="object" CLASSNAME="Performance indicator" SHAPE="rect" COORDS="9,17,9,17" BBX="9" BBY="17" BBW="1" BBH="1" SBBX="9" SBBY="17" SBBW="0" SBBH="0" LAYER="1" INDEX="1" POSX="10" POSY="17" />
+  <AREA ID="30359" TYPE="attribute" CLASSNAME="Perspective" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="0,16,0,15"  BBX="0" BBY="16" BBW="1" BBH="0"  LAYER="-4" INDEX="4" />
+  <AREA ID="30359" TYPE="object" CLASSNAME="Perspective" SHAPE="rect" COORDS="0,12,10,19" BBX="0" BBY="12" BBW="11" BBH="8" SBBX="0" SBBY="12" SBBW="11" SBBH="8" LAYER="-4" INDEX="4" />
+  <AREA ID="30562" TYPE="attribute" CLASSNAME="Perspective" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="0,11,0,10"  BBX="0" BBY="11" BBW="1" BBH="0"  LAYER="-4" INDEX="3" />
+  <AREA ID="30562" TYPE="object" CLASSNAME="Perspective" SHAPE="rect" COORDS="0,10,10,12" BBX="0" BBY="10" BBW="11" BBH="3" SBBX="0" SBBY="10" SBBW="11" SBBH="3" LAYER="-4" INDEX="3" />
+  <AREA ID="30436" TYPE="attribute" CLASSNAME="Perspective" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="0,6,0,5"  BBX="0" BBY="6" BBW="1" BBH="0"  LAYER="-4" INDEX="2" />
+  <AREA ID="30436" TYPE="object" CLASSNAME="Perspective" SHAPE="rect" COORDS="0,4,10,9" BBX="0" BBY="4" BBW="11" BBH="6" SBBX="0" SBBY="4" SBBW="11" SBBH="6" LAYER="-4" INDEX="2" />
+  <AREA ID="30465" TYPE="attribute" CLASSNAME="Perspective" ATTRID="9" ATTRNAME="Name" SHAPE="rect" COORDS="0,2,0,1"  BBX="0" BBY="2" BBW="1" BBH="0"  LAYER="-4" INDEX="1" />
+  <AREA ID="30465" TYPE="object" CLASSNAME="Perspective" SHAPE="rect" COORDS="0,0,10,3" BBX="0" BBY="0" BBW="11" BBH="4" SBBX="0" SBBY="0" SBBW="11" SBBH="4" LAYER="-4" INDEX="1" />
+</MAP>
