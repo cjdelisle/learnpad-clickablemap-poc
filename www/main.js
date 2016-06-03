@@ -8,9 +8,6 @@ var parsePosition = function (pos) {
     if (!xywh.h && !xywh.w) {
         xywh.h = 2;
         xywh.w = 2;
-
-        // Magic
-        xywh.x += 0.75;
     }
     if (!xywh.x || !xywh.y || !xywh.w || !xywh.h) {
         throw new Error("failed to parse " + pos);
@@ -46,21 +43,18 @@ var handleXML = function (xml, modelNum, imageDiv) {
     console.log(whm);
 
     $(xml).find('MODEL[id="mod.' + modelNum + '"] INSTANCE').each(function (i, el) {
-
     if (['Pool','Lane'].indexOf($(el).attr('class')) > -1) { return; }
         var pos = parsePosition($(el).find('ATTRIBUTE[name="Position"]').text());
 
-        // Magic, do not stare at it for too long or else it might break.
-        //pos.x -= 1.2;
-        //pos.y -= 0.4;
-
+        var posX = pos.x - (pos.w / 2);
+        var posY = pos.y - (pos.h / 2);
         $(imageDiv).append(
             '<a href="#" ' +
                 'title="' + $(el).attr('name') + '"' +
                 'class="learnpad-clickable-map" ' +
                 'style="' +
-                    'left:' + (pos.x * whm.widthPixPerCm) + 'px;' +
-                    'top:' + (pos.y * whm.heightPixPerCm) + 'px;' +
+                    'left:' + ( posX * whm.widthPixPerCm) + 'px;' +
+                    'top:' + ( posY * whm.heightPixPerCm) + 'px;' +
                     'width:' + (pos.w * whm.widthPixPerCm) + 'px;' +
                     'height:' + (pos.h * whm.heightPixPerCm) + 'px;">' +
             '</a>'
@@ -74,7 +68,7 @@ $(function () {
 
     var id = 'learnpad-imgmap-' + obj;
     $('body').html(
-        '<div style="border:0px;margin:0px" id="' + id + '">' +
+        '<div style="position:relative;border:0px;margin:0px" id="' + id + '">' +
             '<img src="' + obj + '.png">' +
         '</div>');
     var imageDiv = $('#'+id);
